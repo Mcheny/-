@@ -33078,3 +33078,136 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1529636660.689
     'REQUEST_TIME' => 1529636660
 ]
+2018-06-22 11:07:11 [::1][1][-][error][yii\web\HttpException:403] exception 'yii\web\ForbiddenHttpException' with message 'You are not allowed to perform this action.' in D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\filters\AccessControl.php:150
+Stack trace:
+#0 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\filters\AccessControl.php(133): yii\filters\AccessControl->denyAccess(Object(yii\web\User))
+#1 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\base\ActionFilter.php(71): yii\filters\AccessControl->beforeAction(Object(yii\base\InlineAction))
+#2 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#3 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\base\Component.php(538): call_user_func(Array, Object(yii\base\ActionEvent))
+#4 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\base\Controller.php(259): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#5 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\web\Controller.php(108): yii\base\Controller->beforeAction(Object(yii\base\InlineAction))
+#6 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\base\Controller.php(149): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#7 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\base\Module.php(456): yii\base\Controller->runAction('login', Array)
+#8 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('admin/index/log...', Array)
+#9 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 D:\phpstudy\WWW\ytwo_git\ytwo\web\index.php(12): yii\base\Application->run()
+#11 {main}
+2018-06-22 11:07:10 [::1][1][-][info][application] $_COOKIE = [
+    '_csrf' => '2c54b8cb97d8fbd45b955c1ad600004d9e1f2b81d0d70680ddf97a75d06bf259s:32:\"m-KPNHedfDGIOM4e_D8w2l4Z3Hk0IyY_\";'
+    'PHPSESSID' => 'b8o5uc814sj79div7avdc6unh0'
+    '_identity' => '8d77ce6ba64d0a2fbb0efb0d230add73fcca7013f98fec5cd24af71115652960s:22:\"[1,\"test100key\",86400]\";'
+]
+
+$_SESSION = [
+    '__returnUrl' => '/ytwo/web/index-test.php'
+    '__flash' => []
+    '__id' => 1
+    'msg' => '0'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost:90'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.29 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_COOKIE' => '_csrf=2c54b8cb97d8fbd45b955c1ad600004d9e1f2b81d0d70680ddf97a75d06bf259s%3A32%3A%22m-KPNHedfDGIOM4e_D8w2l4Z3Hk0IyY_%22%3B; PHPSESSID=b8o5uc814sj79div7avdc6unh0; _identity=8d77ce6ba64d0a2fbb0efb0d230add73fcca7013f98fec5cd24af71115652960s%3A22%3A%22%5B1%2C%22test100key%22%2C86400%5D%22%3B'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\git\\Git\\cmd;D:\\JDK-1.7\\jdk1.8.0_77\\bin;D:\\JDK-1.7\\jdk1.8.0_77\\jre\\bin;C:\\Program Files\\Apache Software Foundation\\Tomcat 7.0\\bin;D:\\phpstudy\\php55;C:\\ProgramData\\ComposerSetup\\bin;D:\\工具\\SVN\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '90'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/phpstudy/WWW'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpstudy/WWW'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'D:/phpstudy/WWW/ytwo_git/ytwo/web/index.php'
+    'REMOTE_PORT' => '52298'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/ytwo_git/ytwo/web/index.php/admin/index/login'
+    'SCRIPT_NAME' => '/ytwo_git/ytwo/web/index.php'
+    'PATH_INFO' => '/admin/index/login'
+    'PATH_TRANSLATED' => 'D:\\phpstudy\\WWW\\admin\\index\\login'
+    'PHP_SELF' => '/ytwo_git/ytwo/web/index.php/admin/index/login'
+    'REQUEST_TIME_FLOAT' => 1529636830.263
+    'REQUEST_TIME' => 1529636830
+]
+2018-06-22 11:07:17 [::1][1][-][error][yii\web\HttpException:403] exception 'yii\web\ForbiddenHttpException' with message 'You are not allowed to perform this action.' in D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\filters\AccessControl.php:150
+Stack trace:
+#0 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\filters\AccessControl.php(133): yii\filters\AccessControl->denyAccess(Object(yii\web\User))
+#1 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\base\ActionFilter.php(71): yii\filters\AccessControl->beforeAction(Object(yii\base\InlineAction))
+#2 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#3 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\base\Component.php(538): call_user_func(Array, Object(yii\base\ActionEvent))
+#4 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\base\Controller.php(259): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#5 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\web\Controller.php(108): yii\base\Controller->beforeAction(Object(yii\base\InlineAction))
+#6 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\base\Controller.php(149): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#7 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\base\Module.php(456): yii\base\Controller->runAction('login', Array)
+#8 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('admin/index/log...', Array)
+#9 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 D:\phpstudy\WWW\ytwo_git\ytwo\web\index-test.php(16): yii\base\Application->run()
+#11 {main}
+2018-06-22 11:07:16 [::1][1][-][info][application] $_COOKIE = [
+    '_csrf' => '2c54b8cb97d8fbd45b955c1ad600004d9e1f2b81d0d70680ddf97a75d06bf259s:32:\"m-KPNHedfDGIOM4e_D8w2l4Z3Hk0IyY_\";'
+    'PHPSESSID' => 'b8o5uc814sj79div7avdc6unh0'
+    '_identity' => '8d77ce6ba64d0a2fbb0efb0d230add73fcca7013f98fec5cd24af71115652960s:22:\"[1,\"test100key\",86400]\";'
+]
+
+$_SESSION = [
+    '__returnUrl' => '/ytwo/web/index-test.php'
+    '__flash' => []
+    '__id' => 1
+    'msg' => '0'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost:90'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.29 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_COOKIE' => '_csrf=2c54b8cb97d8fbd45b955c1ad600004d9e1f2b81d0d70680ddf97a75d06bf259s%3A32%3A%22m-KPNHedfDGIOM4e_D8w2l4Z3Hk0IyY_%22%3B; PHPSESSID=b8o5uc814sj79div7avdc6unh0; _identity=8d77ce6ba64d0a2fbb0efb0d230add73fcca7013f98fec5cd24af71115652960s%3A22%3A%22%5B1%2C%22test100key%22%2C86400%5D%22%3B'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\git\\Git\\cmd;D:\\JDK-1.7\\jdk1.8.0_77\\bin;D:\\JDK-1.7\\jdk1.8.0_77\\jre\\bin;C:\\Program Files\\Apache Software Foundation\\Tomcat 7.0\\bin;D:\\phpstudy\\php55;C:\\ProgramData\\ComposerSetup\\bin;D:\\工具\\SVN\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '90'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/phpstudy/WWW'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpstudy/WWW'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'D:/phpstudy/WWW/ytwo_git/ytwo/web/index-test.php'
+    'REMOTE_PORT' => '52298'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/ytwo_git/ytwo/web/index-test.php/admin/index/login'
+    'SCRIPT_NAME' => '/ytwo_git/ytwo/web/index-test.php'
+    'PATH_INFO' => '/admin/index/login'
+    'PATH_TRANSLATED' => 'D:\\phpstudy\\WWW\\admin\\index\\login'
+    'PHP_SELF' => '/ytwo_git/ytwo/web/index-test.php/admin/index/login'
+    'REQUEST_TIME_FLOAT' => 1529636836.224
+    'REQUEST_TIME' => 1529636836
+]

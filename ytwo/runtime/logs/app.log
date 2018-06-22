@@ -30628,3 +30628,2453 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1529571899.879
     'REQUEST_TIME' => 1529571899
 ]
+2018-06-22 10:22:57 [::1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: admin/index/favicon.ico' in D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\base\Controller.php:122
+Stack trace:
+#0 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\base\Module.php(456): yii\base\Controller->runAction('favicon.ico', Array)
+#1 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('admin/index/fav...', Array)
+#2 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 D:\phpstudy\WWW\ytwo_git\ytwo\web\index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Unable to resolve the request: admin/index/favicon.ico' in D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\web\Application.php:95
+Stack trace:
+#0 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\phpstudy\WWW\ytwo_git\ytwo\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2018-06-22 10:22:57 [::1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '2c54b8cb97d8fbd45b955c1ad600004d9e1f2b81d0d70680ddf97a75d06bf259s:32:\"m-KPNHedfDGIOM4e_D8w2l4Z3Hk0IyY_\";'
+    'PHPSESSID' => 'lgmu0nrkccucd19rmgj7esn4q5'
+]
+
+$_SESSION = [
+    '__returnUrl' => '/ytwo/web/index-test.php'
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost:90'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.29 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost:90/ytwo_git/ytwo/web/index.php/admin/index/login'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_COOKIE' => '_csrf=2c54b8cb97d8fbd45b955c1ad600004d9e1f2b81d0d70680ddf97a75d06bf259s%3A32%3A%22m-KPNHedfDGIOM4e_D8w2l4Z3Hk0IyY_%22%3B; PHPSESSID=lgmu0nrkccucd19rmgj7esn4q5'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\git\\Git\\cmd;D:\\JDK-1.7\\jdk1.8.0_77\\bin;D:\\JDK-1.7\\jdk1.8.0_77\\jre\\bin;C:\\Program Files\\Apache Software Foundation\\Tomcat 7.0\\bin;D:\\phpstudy\\php55;C:\\ProgramData\\ComposerSetup\\bin;D:\\宸ュ叿\\SVN\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '90'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/phpstudy/WWW'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpstudy/WWW'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'D:/phpstudy/WWW/ytwo_git/ytwo/web/index.php'
+    'REMOTE_PORT' => '51113'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/ytwo_git/ytwo/web/index.php/admin/index/favicon.ico'
+    'SCRIPT_NAME' => '/ytwo_git/ytwo/web/index.php'
+    'PATH_INFO' => '/admin/index/favicon.ico'
+    'PATH_TRANSLATED' => 'D:\\phpstudy\\WWW\\admin\\index\\favicon.ico'
+    'PHP_SELF' => '/ytwo_git/ytwo/web/index.php/admin/index/favicon.ico'
+    'REQUEST_TIME_FLOAT' => 1529634177.656
+    'REQUEST_TIME' => 1529634177
+]
+2018-06-22 10:23:29 [::1][-][-][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'yii2_basic_test'' in D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\db\Connection.php:579
+Stack trace:
+#0 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\db\Connection.php(579): PDO->__construct('mysql:host=loca...', 'root', 'root', NULL)
+#1 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\db\Connection.php(529): yii\db\Connection->createPdoInstance()
+#2 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\db\Connection.php(836): yii\db\Connection->open()
+#3 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\db\Connection.php(823): yii\db\Connection->getMasterPdo()
+#4 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\db\Command.php(208): yii\db\Connection->getSlavePdo()
+#5 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\db\Command.php(815): yii\db\Command->prepare(true)
+#6 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\db\Command.php(364): yii\db\Command->queryInternal('fetch', NULL)
+#7 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\db\Query.php(243): yii\db\Command->queryOne()
+#8 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\db\ActiveQuery.php(285): yii\db\Query->one(NULL)
+#9 D:\phpstudy\WWW\ytwo_git\ytwo\models\YiiUser.php(32): yii\db\ActiveQuery->one()
+#10 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\web\User.php(614): app\models\YiiUser::findIdentity(1)
+#11 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\web\User.php(176): yii\web\User->renewAuthStatus()
+#12 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\web\User.php(346): yii\web\User->getIdentity()
+#13 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\filters\AccessRule.php(145): yii\web\User->getIsGuest()
+#14 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\filters\AccessRule.php(104): yii\filters\AccessRule->matchRole(Object(yii\web\User))
+#15 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\filters\AccessControl.php(117): yii\filters\AccessRule->allows(Object(yii\base\InlineAction), Object(yii\web\User), Object(yii\web\Request))
+#16 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\base\ActionFilter.php(71): yii\filters\AccessControl->beforeAction(Object(yii\base\InlineAction))
+#17 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#18 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\base\Component.php(538): call_user_func(Array, Object(yii\base\ActionEvent))
+#19 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\base\Controller.php(259): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#20 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\web\Controller.php(108): yii\base\Controller->beforeAction(Object(yii\base\InlineAction))
+#21 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\base\Controller.php(149): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#22 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\base\Module.php(456): yii\base\Controller->runAction('login', Array)
+#23 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('admin/index/log...', Array)
+#24 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#25 D:\phpstudy\WWW\ytwo_git\ytwo\web\index.php(12): yii\base\Application->run()
+#26 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[HY000] [1049] Unknown database 'yii2_basic_test'' in D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\db\Connection.php:534
+Stack trace:
+#0 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\db\Connection.php(836): yii\db\Connection->open()
+#1 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\db\Connection.php(823): yii\db\Connection->getMasterPdo()
+#2 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\db\Command.php(208): yii\db\Connection->getSlavePdo()
+#3 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\db\Command.php(815): yii\db\Command->prepare(true)
+#4 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\db\Command.php(364): yii\db\Command->queryInternal('fetch', NULL)
+#5 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\db\Query.php(243): yii\db\Command->queryOne()
+#6 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\db\ActiveQuery.php(285): yii\db\Query->one(NULL)
+#7 D:\phpstudy\WWW\ytwo_git\ytwo\models\YiiUser.php(32): yii\db\ActiveQuery->one()
+#8 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\web\User.php(614): app\models\YiiUser::findIdentity(1)
+#9 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\web\User.php(176): yii\web\User->renewAuthStatus()
+#10 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\web\User.php(346): yii\web\User->getIdentity()
+#11 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\filters\AccessRule.php(145): yii\web\User->getIsGuest()
+#12 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\filters\AccessRule.php(104): yii\filters\AccessRule->matchRole(Object(yii\web\User))
+#13 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\filters\AccessControl.php(117): yii\filters\AccessRule->allows(Object(yii\base\InlineAction), Object(yii\web\User), Object(yii\web\Request))
+#14 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\base\ActionFilter.php(71): yii\filters\AccessControl->beforeAction(Object(yii\base\InlineAction))
+#15 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#16 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\base\Component.php(538): call_user_func(Array, Object(yii\base\ActionEvent))
+#17 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\base\Controller.php(259): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#18 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\web\Controller.php(108): yii\base\Controller->beforeAction(Object(yii\base\InlineAction))
+#19 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\base\Controller.php(149): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#20 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\base\Module.php(456): yii\base\Controller->runAction('login', Array)
+#21 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('admin/index/log...', Array)
+#22 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#23 D:\phpstudy\WWW\ytwo_git\ytwo\web\index.php(12): yii\base\Application->run()
+#24 {main}
+Additional Information:
+
+2018-06-22 10:23:28 [::1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '2c54b8cb97d8fbd45b955c1ad600004d9e1f2b81d0d70680ddf97a75d06bf259s:32:\"m-KPNHedfDGIOM4e_D8w2l4Z3Hk0IyY_\";'
+    '_identity' => '8d77ce6ba64d0a2fbb0efb0d230add73fcca7013f98fec5cd24af71115652960s:22:\"[1,\"test100key\",86400]\";'
+    'PHPSESSID' => '243it4q6mbnc9jhd71dtc6njo3'
+]
+
+$_SESSION = [
+    '__returnUrl' => '/ytwo/web/index-test.php'
+    '__flash' => []
+    '__id' => 1
+    'msg' => '0'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost:90'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.29 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_COOKIE' => '_csrf=2c54b8cb97d8fbd45b955c1ad600004d9e1f2b81d0d70680ddf97a75d06bf259s%3A32%3A%22m-KPNHedfDGIOM4e_D8w2l4Z3Hk0IyY_%22%3B; _identity=8d77ce6ba64d0a2fbb0efb0d230add73fcca7013f98fec5cd24af71115652960s%3A22%3A%22%5B1%2C%22test100key%22%2C86400%5D%22%3B; PHPSESSID=243it4q6mbnc9jhd71dtc6njo3'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\git\\Git\\cmd;D:\\JDK-1.7\\jdk1.8.0_77\\bin;D:\\JDK-1.7\\jdk1.8.0_77\\jre\\bin;C:\\Program Files\\Apache Software Foundation\\Tomcat 7.0\\bin;D:\\phpstudy\\php55;C:\\ProgramData\\ComposerSetup\\bin;D:\\宸ュ叿\\SVN\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '90'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/phpstudy/WWW'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpstudy/WWW'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'D:/phpstudy/WWW/ytwo_git/ytwo/web/index.php'
+    'REMOTE_PORT' => '51132'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/ytwo_git/ytwo/web/index.php/admin/index/login'
+    'SCRIPT_NAME' => '/ytwo_git/ytwo/web/index.php'
+    'PATH_INFO' => '/admin/index/login'
+    'PATH_TRANSLATED' => 'D:\\phpstudy\\WWW\\admin\\index\\login'
+    'PHP_SELF' => '/ytwo_git/ytwo/web/index.php/admin/index/login'
+    'REQUEST_TIME_FLOAT' => 1529634208.266
+    'REQUEST_TIME' => 1529634208
+]
+2018-06-22 10:24:05 [::1][1][-][error][yii\web\HttpException:403] exception 'yii\web\ForbiddenHttpException' with message 'You are not allowed to perform this action.' in D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\filters\AccessControl.php:150
+Stack trace:
+#0 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\filters\AccessControl.php(133): yii\filters\AccessControl->denyAccess(Object(yii\web\User))
+#1 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\base\ActionFilter.php(71): yii\filters\AccessControl->beforeAction(Object(yii\base\InlineAction))
+#2 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#3 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\base\Component.php(538): call_user_func(Array, Object(yii\base\ActionEvent))
+#4 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\base\Controller.php(259): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#5 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\web\Controller.php(108): yii\base\Controller->beforeAction(Object(yii\base\InlineAction))
+#6 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\base\Controller.php(149): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#7 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\base\Module.php(456): yii\base\Controller->runAction('login', Array)
+#8 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('admin/index/log...', Array)
+#9 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 D:\phpstudy\WWW\ytwo_git\ytwo\web\index.php(12): yii\base\Application->run()
+#11 {main}
+2018-06-22 10:24:04 [::1][1][-][info][application] $_COOKIE = [
+    '_csrf' => '2c54b8cb97d8fbd45b955c1ad600004d9e1f2b81d0d70680ddf97a75d06bf259s:32:\"m-KPNHedfDGIOM4e_D8w2l4Z3Hk0IyY_\";'
+    '_identity' => '8d77ce6ba64d0a2fbb0efb0d230add73fcca7013f98fec5cd24af71115652960s:22:\"[1,\"test100key\",86400]\";'
+    'PHPSESSID' => '243it4q6mbnc9jhd71dtc6njo3'
+]
+
+$_SESSION = [
+    '__returnUrl' => '/ytwo/web/index-test.php'
+    '__flash' => []
+    '__id' => 1
+    'msg' => '0'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost:90'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.29 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_COOKIE' => '_csrf=2c54b8cb97d8fbd45b955c1ad600004d9e1f2b81d0d70680ddf97a75d06bf259s%3A32%3A%22m-KPNHedfDGIOM4e_D8w2l4Z3Hk0IyY_%22%3B; _identity=8d77ce6ba64d0a2fbb0efb0d230add73fcca7013f98fec5cd24af71115652960s%3A22%3A%22%5B1%2C%22test100key%22%2C86400%5D%22%3B; PHPSESSID=243it4q6mbnc9jhd71dtc6njo3'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\git\\Git\\cmd;D:\\JDK-1.7\\jdk1.8.0_77\\bin;D:\\JDK-1.7\\jdk1.8.0_77\\jre\\bin;C:\\Program Files\\Apache Software Foundation\\Tomcat 7.0\\bin;D:\\phpstudy\\php55;C:\\ProgramData\\ComposerSetup\\bin;D:\\宸ュ叿\\SVN\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '90'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/phpstudy/WWW'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpstudy/WWW'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'D:/phpstudy/WWW/ytwo_git/ytwo/web/index.php'
+    'REMOTE_PORT' => '51158'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/ytwo_git/ytwo/web/index.php/admin/index/login'
+    'SCRIPT_NAME' => '/ytwo_git/ytwo/web/index.php'
+    'PATH_INFO' => '/admin/index/login'
+    'PATH_TRANSLATED' => 'D:\\phpstudy\\WWW\\admin\\index\\login'
+    'PHP_SELF' => '/ytwo_git/ytwo/web/index.php/admin/index/login'
+    'REQUEST_TIME_FLOAT' => 1529634244.744
+    'REQUEST_TIME' => 1529634244
+]
+2018-06-22 10:24:13 [::1][1][-][error][yii\web\HttpException:403] exception 'yii\web\ForbiddenHttpException' with message 'You are not allowed to perform this action.' in D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\filters\AccessControl.php:150
+Stack trace:
+#0 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\filters\AccessControl.php(133): yii\filters\AccessControl->denyAccess(Object(yii\web\User))
+#1 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\base\ActionFilter.php(71): yii\filters\AccessControl->beforeAction(Object(yii\base\InlineAction))
+#2 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#3 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\base\Component.php(538): call_user_func(Array, Object(yii\base\ActionEvent))
+#4 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\base\Controller.php(259): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#5 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\web\Controller.php(108): yii\base\Controller->beforeAction(Object(yii\base\InlineAction))
+#6 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\base\Controller.php(149): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#7 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\base\Module.php(456): yii\base\Controller->runAction('login', Array)
+#8 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('admin/index/log...', Array)
+#9 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 D:\phpstudy\WWW\ytwo_git\ytwo\web\index.php(12): yii\base\Application->run()
+#11 {main}
+2018-06-22 10:24:12 [::1][1][-][info][application] $_COOKIE = [
+    '_csrf' => '2c54b8cb97d8fbd45b955c1ad600004d9e1f2b81d0d70680ddf97a75d06bf259s:32:\"m-KPNHedfDGIOM4e_D8w2l4Z3Hk0IyY_\";'
+    '_identity' => '8d77ce6ba64d0a2fbb0efb0d230add73fcca7013f98fec5cd24af71115652960s:22:\"[1,\"test100key\",86400]\";'
+    'PHPSESSID' => '243it4q6mbnc9jhd71dtc6njo3'
+]
+
+$_SESSION = [
+    '__returnUrl' => '/ytwo/web/index-test.php'
+    '__flash' => []
+    '__id' => 1
+    'msg' => '0'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost:90'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.29 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_COOKIE' => '_csrf=2c54b8cb97d8fbd45b955c1ad600004d9e1f2b81d0d70680ddf97a75d06bf259s%3A32%3A%22m-KPNHedfDGIOM4e_D8w2l4Z3Hk0IyY_%22%3B; _identity=8d77ce6ba64d0a2fbb0efb0d230add73fcca7013f98fec5cd24af71115652960s%3A22%3A%22%5B1%2C%22test100key%22%2C86400%5D%22%3B; PHPSESSID=243it4q6mbnc9jhd71dtc6njo3'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\git\\Git\\cmd;D:\\JDK-1.7\\jdk1.8.0_77\\bin;D:\\JDK-1.7\\jdk1.8.0_77\\jre\\bin;C:\\Program Files\\Apache Software Foundation\\Tomcat 7.0\\bin;D:\\phpstudy\\php55;C:\\ProgramData\\ComposerSetup\\bin;D:\\宸ュ叿\\SVN\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '90'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/phpstudy/WWW'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpstudy/WWW'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'D:/phpstudy/WWW/ytwo_git/ytwo/web/index.php'
+    'REMOTE_PORT' => '51159'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/ytwo_git/ytwo/web/index.php/admin/index/login'
+    'SCRIPT_NAME' => '/ytwo_git/ytwo/web/index.php'
+    'PATH_INFO' => '/admin/index/login'
+    'PATH_TRANSLATED' => 'D:\\phpstudy\\WWW\\admin\\index\\login'
+    'PHP_SELF' => '/ytwo_git/ytwo/web/index.php/admin/index/login'
+    'REQUEST_TIME_FLOAT' => 1529634252.326
+    'REQUEST_TIME' => 1529634252
+]
+2018-06-22 10:24:57 [::1][1][-][error][yii\web\HttpException:403] exception 'yii\web\ForbiddenHttpException' with message 'You are not allowed to perform this action.' in D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\filters\AccessControl.php:150
+Stack trace:
+#0 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\filters\AccessControl.php(133): yii\filters\AccessControl->denyAccess(Object(yii\web\User))
+#1 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\base\ActionFilter.php(71): yii\filters\AccessControl->beforeAction(Object(yii\base\InlineAction))
+#2 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#3 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\base\Component.php(538): call_user_func(Array, Object(yii\base\ActionEvent))
+#4 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\base\Controller.php(259): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#5 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\web\Controller.php(108): yii\base\Controller->beforeAction(Object(yii\base\InlineAction))
+#6 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\base\Controller.php(149): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#7 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\base\Module.php(456): yii\base\Controller->runAction('login', Array)
+#8 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('admin/index/log...', Array)
+#9 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 D:\phpstudy\WWW\ytwo_git\ytwo\web\index.php(12): yii\base\Application->run()
+#11 {main}
+2018-06-22 10:24:55 [::1][1][-][info][application] $_COOKIE = [
+    '_csrf' => '2c54b8cb97d8fbd45b955c1ad600004d9e1f2b81d0d70680ddf97a75d06bf259s:32:\"m-KPNHedfDGIOM4e_D8w2l4Z3Hk0IyY_\";'
+    '_identity' => '8d77ce6ba64d0a2fbb0efb0d230add73fcca7013f98fec5cd24af71115652960s:22:\"[1,\"test100key\",86400]\";'
+    'PHPSESSID' => '243it4q6mbnc9jhd71dtc6njo3'
+]
+
+$_SESSION = [
+    '__returnUrl' => '/ytwo/web/index-test.php'
+    '__flash' => []
+    '__id' => 1
+    'msg' => '0'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost:90'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.29 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_COOKIE' => '_csrf=2c54b8cb97d8fbd45b955c1ad600004d9e1f2b81d0d70680ddf97a75d06bf259s%3A32%3A%22m-KPNHedfDGIOM4e_D8w2l4Z3Hk0IyY_%22%3B; _identity=8d77ce6ba64d0a2fbb0efb0d230add73fcca7013f98fec5cd24af71115652960s%3A22%3A%22%5B1%2C%22test100key%22%2C86400%5D%22%3B; PHPSESSID=243it4q6mbnc9jhd71dtc6njo3'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\git\\Git\\cmd;D:\\JDK-1.7\\jdk1.8.0_77\\bin;D:\\JDK-1.7\\jdk1.8.0_77\\jre\\bin;C:\\Program Files\\Apache Software Foundation\\Tomcat 7.0\\bin;D:\\phpstudy\\php55;C:\\ProgramData\\ComposerSetup\\bin;D:\\宸ュ叿\\SVN\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '90'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/phpstudy/WWW'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpstudy/WWW'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'D:/phpstudy/WWW/ytwo_git/ytwo/web/index.php'
+    'REMOTE_PORT' => '51178'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/ytwo_git/ytwo/web/index.php/admin/index/login'
+    'SCRIPT_NAME' => '/ytwo_git/ytwo/web/index.php'
+    'PATH_INFO' => '/admin/index/login'
+    'PATH_TRANSLATED' => 'D:\\phpstudy\\WWW\\admin\\index\\login'
+    'PHP_SELF' => '/ytwo_git/ytwo/web/index.php/admin/index/login'
+    'REQUEST_TIME_FLOAT' => 1529634295.852
+    'REQUEST_TIME' => 1529634295
+]
+2018-06-22 10:25:52 [::1][1][-][error][yii\web\HttpException:403] exception 'yii\web\ForbiddenHttpException' with message 'You are not allowed to perform this action.' in D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\filters\AccessControl.php:150
+Stack trace:
+#0 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\filters\AccessControl.php(133): yii\filters\AccessControl->denyAccess(Object(yii\web\User))
+#1 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\base\ActionFilter.php(71): yii\filters\AccessControl->beforeAction(Object(yii\base\InlineAction))
+#2 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#3 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\base\Component.php(538): call_user_func(Array, Object(yii\base\ActionEvent))
+#4 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\base\Controller.php(259): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#5 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\web\Controller.php(108): yii\base\Controller->beforeAction(Object(yii\base\InlineAction))
+#6 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\base\Controller.php(149): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#7 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\base\Module.php(456): yii\base\Controller->runAction('login', Array)
+#8 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('admin/index/log...', Array)
+#9 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 D:\phpstudy\WWW\ytwo_git\ytwo\web\index.php(12): yii\base\Application->run()
+#11 {main}
+2018-06-22 10:25:50 [::1][1][-][info][application] $_COOKIE = [
+    '_csrf' => '2c54b8cb97d8fbd45b955c1ad600004d9e1f2b81d0d70680ddf97a75d06bf259s:32:\"m-KPNHedfDGIOM4e_D8w2l4Z3Hk0IyY_\";'
+    '_identity' => '8d77ce6ba64d0a2fbb0efb0d230add73fcca7013f98fec5cd24af71115652960s:22:\"[1,\"test100key\",86400]\";'
+    'PHPSESSID' => '243it4q6mbnc9jhd71dtc6njo3'
+]
+
+$_SESSION = [
+    '__returnUrl' => '/ytwo/web/index-test.php'
+    '__flash' => []
+    '__id' => 1
+    'msg' => '0'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost:90'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.29 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_COOKIE' => '_csrf=2c54b8cb97d8fbd45b955c1ad600004d9e1f2b81d0d70680ddf97a75d06bf259s%3A32%3A%22m-KPNHedfDGIOM4e_D8w2l4Z3Hk0IyY_%22%3B; _identity=8d77ce6ba64d0a2fbb0efb0d230add73fcca7013f98fec5cd24af71115652960s%3A22%3A%22%5B1%2C%22test100key%22%2C86400%5D%22%3B; PHPSESSID=243it4q6mbnc9jhd71dtc6njo3'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\git\\Git\\cmd;D:\\JDK-1.7\\jdk1.8.0_77\\bin;D:\\JDK-1.7\\jdk1.8.0_77\\jre\\bin;C:\\Program Files\\Apache Software Foundation\\Tomcat 7.0\\bin;D:\\phpstudy\\php55;C:\\ProgramData\\ComposerSetup\\bin;D:\\宸ュ叿\\SVN\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '90'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/phpstudy/WWW'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpstudy/WWW'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'D:/phpstudy/WWW/ytwo_git/ytwo/web/index.php'
+    'REMOTE_PORT' => '51196'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/ytwo_git/ytwo/web/index.php/admin/index/login'
+    'SCRIPT_NAME' => '/ytwo_git/ytwo/web/index.php'
+    'PATH_INFO' => '/admin/index/login'
+    'PATH_TRANSLATED' => 'D:\\phpstudy\\WWW\\admin\\index\\login'
+    'PHP_SELF' => '/ytwo_git/ytwo/web/index.php/admin/index/login'
+    'REQUEST_TIME_FLOAT' => 1529634350.95
+    'REQUEST_TIME' => 1529634350
+]
+2018-06-22 10:26:40 [::1][1][-][error][yii\web\HttpException:403] exception 'yii\web\ForbiddenHttpException' with message 'You are not allowed to perform this action.' in D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\filters\AccessControl.php:150
+Stack trace:
+#0 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\filters\AccessControl.php(133): yii\filters\AccessControl->denyAccess(Object(yii\web\User))
+#1 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\base\ActionFilter.php(71): yii\filters\AccessControl->beforeAction(Object(yii\base\InlineAction))
+#2 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#3 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\base\Component.php(538): call_user_func(Array, Object(yii\base\ActionEvent))
+#4 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\base\Controller.php(259): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#5 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\web\Controller.php(108): yii\base\Controller->beforeAction(Object(yii\base\InlineAction))
+#6 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\base\Controller.php(149): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#7 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\base\Module.php(456): yii\base\Controller->runAction('login', Array)
+#8 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('admin/index/log...', Array)
+#9 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 D:\phpstudy\WWW\ytwo_git\ytwo\web\index.php(12): yii\base\Application->run()
+#11 {main}
+2018-06-22 10:26:38 [::1][1][-][info][application] $_COOKIE = [
+    '_csrf' => '2c54b8cb97d8fbd45b955c1ad600004d9e1f2b81d0d70680ddf97a75d06bf259s:32:\"m-KPNHedfDGIOM4e_D8w2l4Z3Hk0IyY_\";'
+    '_identity' => '8d77ce6ba64d0a2fbb0efb0d230add73fcca7013f98fec5cd24af71115652960s:22:\"[1,\"test100key\",86400]\";'
+    'PHPSESSID' => '243it4q6mbnc9jhd71dtc6njo3'
+]
+
+$_SESSION = [
+    '__returnUrl' => '/ytwo/web/index-test.php'
+    '__flash' => []
+    '__id' => 1
+    'msg' => '0'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost:90'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.29 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_COOKIE' => '_csrf=2c54b8cb97d8fbd45b955c1ad600004d9e1f2b81d0d70680ddf97a75d06bf259s%3A32%3A%22m-KPNHedfDGIOM4e_D8w2l4Z3Hk0IyY_%22%3B; _identity=8d77ce6ba64d0a2fbb0efb0d230add73fcca7013f98fec5cd24af71115652960s%3A22%3A%22%5B1%2C%22test100key%22%2C86400%5D%22%3B; PHPSESSID=243it4q6mbnc9jhd71dtc6njo3'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\git\\Git\\cmd;D:\\JDK-1.7\\jdk1.8.0_77\\bin;D:\\JDK-1.7\\jdk1.8.0_77\\jre\\bin;C:\\Program Files\\Apache Software Foundation\\Tomcat 7.0\\bin;D:\\phpstudy\\php55;C:\\ProgramData\\ComposerSetup\\bin;D:\\宸ュ叿\\SVN\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '90'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/phpstudy/WWW'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpstudy/WWW'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'D:/phpstudy/WWW/ytwo_git/ytwo/web/index.php'
+    'REMOTE_PORT' => '51212'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/ytwo_git/ytwo/web/index.php/admin/index/login'
+    'SCRIPT_NAME' => '/ytwo_git/ytwo/web/index.php'
+    'PATH_INFO' => '/admin/index/login'
+    'PATH_TRANSLATED' => 'D:\\phpstudy\\WWW\\admin\\index\\login'
+    'PHP_SELF' => '/ytwo_git/ytwo/web/index.php/admin/index/login'
+    'REQUEST_TIME_FLOAT' => 1529634398.864
+    'REQUEST_TIME' => 1529634398
+]
+2018-06-22 10:27:06 [::1][1][-][error][yii\web\HttpException:403] exception 'yii\web\ForbiddenHttpException' with message 'You are not allowed to perform this action.' in D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\filters\AccessControl.php:150
+Stack trace:
+#0 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\filters\AccessControl.php(133): yii\filters\AccessControl->denyAccess(Object(yii\web\User))
+#1 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\base\ActionFilter.php(71): yii\filters\AccessControl->beforeAction(Object(yii\base\InlineAction))
+#2 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#3 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\base\Component.php(538): call_user_func(Array, Object(yii\base\ActionEvent))
+#4 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\base\Controller.php(259): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#5 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\web\Controller.php(108): yii\base\Controller->beforeAction(Object(yii\base\InlineAction))
+#6 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\base\Controller.php(149): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#7 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\base\Module.php(456): yii\base\Controller->runAction('login', Array)
+#8 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('admin/index/log...', Array)
+#9 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 D:\phpstudy\WWW\ytwo_git\ytwo\web\index.php(12): yii\base\Application->run()
+#11 {main}
+2018-06-22 10:27:05 [::1][1][-][info][application] $_COOKIE = [
+    '_csrf' => '2c54b8cb97d8fbd45b955c1ad600004d9e1f2b81d0d70680ddf97a75d06bf259s:32:\"m-KPNHedfDGIOM4e_D8w2l4Z3Hk0IyY_\";'
+    '_identity' => '8d77ce6ba64d0a2fbb0efb0d230add73fcca7013f98fec5cd24af71115652960s:22:\"[1,\"test100key\",86400]\";'
+    'PHPSESSID' => '243it4q6mbnc9jhd71dtc6njo3'
+]
+
+$_SESSION = [
+    '__returnUrl' => '/ytwo/web/index-test.php'
+    '__flash' => []
+    '__id' => 1
+    'msg' => '0'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost:90'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.29 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_COOKIE' => '_csrf=2c54b8cb97d8fbd45b955c1ad600004d9e1f2b81d0d70680ddf97a75d06bf259s%3A32%3A%22m-KPNHedfDGIOM4e_D8w2l4Z3Hk0IyY_%22%3B; _identity=8d77ce6ba64d0a2fbb0efb0d230add73fcca7013f98fec5cd24af71115652960s%3A22%3A%22%5B1%2C%22test100key%22%2C86400%5D%22%3B; PHPSESSID=243it4q6mbnc9jhd71dtc6njo3'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\git\\Git\\cmd;D:\\JDK-1.7\\jdk1.8.0_77\\bin;D:\\JDK-1.7\\jdk1.8.0_77\\jre\\bin;C:\\Program Files\\Apache Software Foundation\\Tomcat 7.0\\bin;D:\\phpstudy\\php55;C:\\ProgramData\\ComposerSetup\\bin;D:\\宸ュ叿\\SVN\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '90'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/phpstudy/WWW'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpstudy/WWW'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'D:/phpstudy/WWW/ytwo_git/ytwo/web/index.php'
+    'REMOTE_PORT' => '51225'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/ytwo_git/ytwo/web/index.php/admin/index/login'
+    'SCRIPT_NAME' => '/ytwo_git/ytwo/web/index.php'
+    'PATH_INFO' => '/admin/index/login'
+    'PATH_TRANSLATED' => 'D:\\phpstudy\\WWW\\admin\\index\\login'
+    'PHP_SELF' => '/ytwo_git/ytwo/web/index.php/admin/index/login'
+    'REQUEST_TIME_FLOAT' => 1529634425.057
+    'REQUEST_TIME' => 1529634425
+]
+2018-06-22 10:28:07 [::1][1][-][error][yii\web\HttpException:403] exception 'yii\web\ForbiddenHttpException' with message 'You are not allowed to perform this action.' in D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\filters\AccessControl.php:150
+Stack trace:
+#0 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\filters\AccessControl.php(133): yii\filters\AccessControl->denyAccess(Object(yii\web\User))
+#1 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\base\ActionFilter.php(71): yii\filters\AccessControl->beforeAction(Object(yii\base\InlineAction))
+#2 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#3 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\base\Component.php(538): call_user_func(Array, Object(yii\base\ActionEvent))
+#4 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\base\Controller.php(259): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#5 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\web\Controller.php(108): yii\base\Controller->beforeAction(Object(yii\base\InlineAction))
+#6 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\base\Controller.php(149): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#7 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\base\Module.php(456): yii\base\Controller->runAction('login', Array)
+#8 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('admin/index/log...', Array)
+#9 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 D:\phpstudy\WWW\ytwo_git\ytwo\web\index.php(12): yii\base\Application->run()
+#11 {main}
+2018-06-22 10:28:05 [::1][1][-][info][application] $_COOKIE = [
+    '_csrf' => '2c54b8cb97d8fbd45b955c1ad600004d9e1f2b81d0d70680ddf97a75d06bf259s:32:\"m-KPNHedfDGIOM4e_D8w2l4Z3Hk0IyY_\";'
+    '_identity' => '8d77ce6ba64d0a2fbb0efb0d230add73fcca7013f98fec5cd24af71115652960s:22:\"[1,\"test100key\",86400]\";'
+    'PHPSESSID' => '243it4q6mbnc9jhd71dtc6njo3'
+]
+
+$_SESSION = [
+    '__returnUrl' => '/ytwo/web/index-test.php'
+    '__flash' => []
+    '__id' => 1
+    'msg' => '0'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost:90'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.29 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_COOKIE' => '_csrf=2c54b8cb97d8fbd45b955c1ad600004d9e1f2b81d0d70680ddf97a75d06bf259s%3A32%3A%22m-KPNHedfDGIOM4e_D8w2l4Z3Hk0IyY_%22%3B; _identity=8d77ce6ba64d0a2fbb0efb0d230add73fcca7013f98fec5cd24af71115652960s%3A22%3A%22%5B1%2C%22test100key%22%2C86400%5D%22%3B; PHPSESSID=243it4q6mbnc9jhd71dtc6njo3'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\git\\Git\\cmd;D:\\JDK-1.7\\jdk1.8.0_77\\bin;D:\\JDK-1.7\\jdk1.8.0_77\\jre\\bin;C:\\Program Files\\Apache Software Foundation\\Tomcat 7.0\\bin;D:\\phpstudy\\php55;C:\\ProgramData\\ComposerSetup\\bin;D:\\宸ュ叿\\SVN\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '90'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/phpstudy/WWW'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpstudy/WWW'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'D:/phpstudy/WWW/ytwo_git/ytwo/web/index.php'
+    'REMOTE_PORT' => '51248'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/ytwo_git/ytwo/web/index.php/admin/index/login'
+    'SCRIPT_NAME' => '/ytwo_git/ytwo/web/index.php'
+    'PATH_INFO' => '/admin/index/login'
+    'PATH_TRANSLATED' => 'D:\\phpstudy\\WWW\\admin\\index\\login'
+    'PHP_SELF' => '/ytwo_git/ytwo/web/index.php/admin/index/login'
+    'REQUEST_TIME_FLOAT' => 1529634485.81
+    'REQUEST_TIME' => 1529634485
+]
+2018-06-22 10:33:51 [::1][1][-][error][yii\web\HttpException:403] exception 'yii\web\ForbiddenHttpException' with message 'You are not allowed to perform this action.' in D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\filters\AccessControl.php:150
+Stack trace:
+#0 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\filters\AccessControl.php(133): yii\filters\AccessControl->denyAccess(Object(yii\web\User))
+#1 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\base\ActionFilter.php(71): yii\filters\AccessControl->beforeAction(Object(yii\base\InlineAction))
+#2 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#3 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\base\Component.php(538): call_user_func(Array, Object(yii\base\ActionEvent))
+#4 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\base\Controller.php(259): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#5 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\web\Controller.php(108): yii\base\Controller->beforeAction(Object(yii\base\InlineAction))
+#6 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\base\Controller.php(149): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#7 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\base\Module.php(456): yii\base\Controller->runAction('login', Array)
+#8 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('admin/index/log...', Array)
+#9 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 D:\phpstudy\WWW\ytwo_git\ytwo\web\index.php(12): yii\base\Application->run()
+#11 {main}
+2018-06-22 10:33:50 [::1][1][-][info][application] $_COOKIE = [
+    '_csrf' => '2c54b8cb97d8fbd45b955c1ad600004d9e1f2b81d0d70680ddf97a75d06bf259s:32:\"m-KPNHedfDGIOM4e_D8w2l4Z3Hk0IyY_\";'
+    '_identity' => '8d77ce6ba64d0a2fbb0efb0d230add73fcca7013f98fec5cd24af71115652960s:22:\"[1,\"test100key\",86400]\";'
+    'PHPSESSID' => '243it4q6mbnc9jhd71dtc6njo3'
+]
+
+$_SESSION = [
+    '__returnUrl' => '/ytwo/web/index-test.php'
+    '__flash' => []
+    '__id' => 1
+    'msg' => '0'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost:90'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.29 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_COOKIE' => '_csrf=2c54b8cb97d8fbd45b955c1ad600004d9e1f2b81d0d70680ddf97a75d06bf259s%3A32%3A%22m-KPNHedfDGIOM4e_D8w2l4Z3Hk0IyY_%22%3B; _identity=8d77ce6ba64d0a2fbb0efb0d230add73fcca7013f98fec5cd24af71115652960s%3A22%3A%22%5B1%2C%22test100key%22%2C86400%5D%22%3B; PHPSESSID=243it4q6mbnc9jhd71dtc6njo3'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\git\\Git\\cmd;D:\\JDK-1.7\\jdk1.8.0_77\\bin;D:\\JDK-1.7\\jdk1.8.0_77\\jre\\bin;C:\\Program Files\\Apache Software Foundation\\Tomcat 7.0\\bin;D:\\phpstudy\\php55;C:\\ProgramData\\ComposerSetup\\bin;D:\\宸ュ叿\\SVN\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '90'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/phpstudy/WWW'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpstudy/WWW'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'D:/phpstudy/WWW/ytwo_git/ytwo/web/index.php'
+    'REMOTE_PORT' => '51375'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/ytwo_git/ytwo/web/index.php/admin/index/login'
+    'SCRIPT_NAME' => '/ytwo_git/ytwo/web/index.php'
+    'PATH_INFO' => '/admin/index/login'
+    'PATH_TRANSLATED' => 'D:\\phpstudy\\WWW\\admin\\index\\login'
+    'PHP_SELF' => '/ytwo_git/ytwo/web/index.php/admin/index/login'
+    'REQUEST_TIME_FLOAT' => 1529634830.137
+    'REQUEST_TIME' => 1529634830
+]
+2018-06-22 10:33:58 [::1][1][-][error][yii\web\HttpException:403] exception 'yii\web\ForbiddenHttpException' with message 'You are not allowed to perform this action.' in D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\filters\AccessControl.php:150
+Stack trace:
+#0 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\filters\AccessControl.php(133): yii\filters\AccessControl->denyAccess(Object(yii\web\User))
+#1 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\base\ActionFilter.php(71): yii\filters\AccessControl->beforeAction(Object(yii\base\InlineAction))
+#2 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#3 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\base\Component.php(538): call_user_func(Array, Object(yii\base\ActionEvent))
+#4 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\base\Controller.php(259): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#5 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\web\Controller.php(108): yii\base\Controller->beforeAction(Object(yii\base\InlineAction))
+#6 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\base\Controller.php(149): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#7 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\base\Module.php(456): yii\base\Controller->runAction('login', Array)
+#8 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('admin/index/log...', Array)
+#9 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 D:\phpstudy\WWW\ytwo_git\ytwo\web\index.php(12): yii\base\Application->run()
+#11 {main}
+2018-06-22 10:33:57 [::1][1][-][info][application] $_COOKIE = [
+    '_csrf' => '2c54b8cb97d8fbd45b955c1ad600004d9e1f2b81d0d70680ddf97a75d06bf259s:32:\"m-KPNHedfDGIOM4e_D8w2l4Z3Hk0IyY_\";'
+    '_identity' => '8d77ce6ba64d0a2fbb0efb0d230add73fcca7013f98fec5cd24af71115652960s:22:\"[1,\"test100key\",86400]\";'
+    'PHPSESSID' => '243it4q6mbnc9jhd71dtc6njo3'
+]
+
+$_SESSION = [
+    '__returnUrl' => '/ytwo/web/index-test.php'
+    '__flash' => []
+    '__id' => 1
+    'msg' => '0'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost:90'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.29 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_COOKIE' => '_csrf=2c54b8cb97d8fbd45b955c1ad600004d9e1f2b81d0d70680ddf97a75d06bf259s%3A32%3A%22m-KPNHedfDGIOM4e_D8w2l4Z3Hk0IyY_%22%3B; _identity=8d77ce6ba64d0a2fbb0efb0d230add73fcca7013f98fec5cd24af71115652960s%3A22%3A%22%5B1%2C%22test100key%22%2C86400%5D%22%3B; PHPSESSID=243it4q6mbnc9jhd71dtc6njo3'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\git\\Git\\cmd;D:\\JDK-1.7\\jdk1.8.0_77\\bin;D:\\JDK-1.7\\jdk1.8.0_77\\jre\\bin;C:\\Program Files\\Apache Software Foundation\\Tomcat 7.0\\bin;D:\\phpstudy\\php55;C:\\ProgramData\\ComposerSetup\\bin;D:\\宸ュ叿\\SVN\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '90'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/phpstudy/WWW'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpstudy/WWW'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'D:/phpstudy/WWW/ytwo_git/ytwo/web/index.php'
+    'REMOTE_PORT' => '51379'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/ytwo_git/ytwo/web/index.php/admin/index/login'
+    'SCRIPT_NAME' => '/ytwo_git/ytwo/web/index.php'
+    'PATH_INFO' => '/admin/index/login'
+    'PATH_TRANSLATED' => 'D:\\phpstudy\\WWW\\admin\\index\\login'
+    'PHP_SELF' => '/ytwo_git/ytwo/web/index.php/admin/index/login'
+    'REQUEST_TIME_FLOAT' => 1529634837.525
+    'REQUEST_TIME' => 1529634837
+]
+2018-06-22 10:34:23 [::1][1][-][error][yii\web\HttpException:403] exception 'yii\web\ForbiddenHttpException' with message 'You are not allowed to perform this action.' in D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\filters\AccessControl.php:150
+Stack trace:
+#0 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\filters\AccessControl.php(133): yii\filters\AccessControl->denyAccess(Object(yii\web\User))
+#1 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\base\ActionFilter.php(71): yii\filters\AccessControl->beforeAction(Object(yii\base\InlineAction))
+#2 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#3 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\base\Component.php(538): call_user_func(Array, Object(yii\base\ActionEvent))
+#4 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\base\Controller.php(259): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#5 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\web\Controller.php(108): yii\base\Controller->beforeAction(Object(yii\base\InlineAction))
+#6 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\base\Controller.php(149): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#7 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\base\Module.php(456): yii\base\Controller->runAction('login', Array)
+#8 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('admin/index/log...', Array)
+#9 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 D:\phpstudy\WWW\ytwo_git\ytwo\web\index-test.php(16): yii\base\Application->run()
+#11 {main}
+2018-06-22 10:34:22 [::1][1][-][info][application] $_COOKIE = [
+    '_csrf' => '2c54b8cb97d8fbd45b955c1ad600004d9e1f2b81d0d70680ddf97a75d06bf259s:32:\"m-KPNHedfDGIOM4e_D8w2l4Z3Hk0IyY_\";'
+    '_identity' => '8d77ce6ba64d0a2fbb0efb0d230add73fcca7013f98fec5cd24af71115652960s:22:\"[1,\"test100key\",86400]\";'
+    'PHPSESSID' => '243it4q6mbnc9jhd71dtc6njo3'
+]
+
+$_SESSION = [
+    '__returnUrl' => '/ytwo/web/index-test.php'
+    '__flash' => []
+    '__id' => 1
+    'msg' => '0'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost:90'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.29 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_COOKIE' => '_csrf=2c54b8cb97d8fbd45b955c1ad600004d9e1f2b81d0d70680ddf97a75d06bf259s%3A32%3A%22m-KPNHedfDGIOM4e_D8w2l4Z3Hk0IyY_%22%3B; _identity=8d77ce6ba64d0a2fbb0efb0d230add73fcca7013f98fec5cd24af71115652960s%3A22%3A%22%5B1%2C%22test100key%22%2C86400%5D%22%3B; PHPSESSID=243it4q6mbnc9jhd71dtc6njo3'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\git\\Git\\cmd;D:\\JDK-1.7\\jdk1.8.0_77\\bin;D:\\JDK-1.7\\jdk1.8.0_77\\jre\\bin;C:\\Program Files\\Apache Software Foundation\\Tomcat 7.0\\bin;D:\\phpstudy\\php55;C:\\ProgramData\\ComposerSetup\\bin;D:\\宸ュ叿\\SVN\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '90'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/phpstudy/WWW'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpstudy/WWW'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'D:/phpstudy/WWW/ytwo_git/ytwo/web/index-test.php'
+    'REMOTE_PORT' => '51392'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/ytwo_git/ytwo/web/index-test.php/admin/index/login'
+    'SCRIPT_NAME' => '/ytwo_git/ytwo/web/index-test.php'
+    'PATH_INFO' => '/admin/index/login'
+    'PATH_TRANSLATED' => 'D:\\phpstudy\\WWW\\admin\\index\\login'
+    'PHP_SELF' => '/ytwo_git/ytwo/web/index-test.php/admin/index/login'
+    'REQUEST_TIME_FLOAT' => 1529634862.255
+    'REQUEST_TIME' => 1529634862
+]
+2018-06-22 10:35:01 [::1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "favicon.ico".' in D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\base\Module.php:462
+Stack trace:
+#0 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('favicon.ico', Array)
+#1 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\phpstudy\WWW\ytwo_git\ytwo\web\index-test.php(16): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\web\Application.php:95
+Stack trace:
+#0 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\phpstudy\WWW\ytwo_git\ytwo\web\index-test.php(16): yii\base\Application->run()
+#2 {main}
+2018-06-22 10:35:01 [::1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '2c54b8cb97d8fbd45b955c1ad600004d9e1f2b81d0d70680ddf97a75d06bf259s:32:\"m-KPNHedfDGIOM4e_D8w2l4Z3Hk0IyY_\";'
+    'PHPSESSID' => '243it4q6mbnc9jhd71dtc6njo3'
+    '_identity' => '8d77ce6ba64d0a2fbb0efb0d230add73fcca7013f98fec5cd24af71115652960s:22:\"[1,\"test100key\",86400]\";'
+]
+
+$_SESSION = [
+    '__returnUrl' => '/ytwo/web/index-test.php'
+    '__flash' => []
+    '__id' => 1
+    'msg' => '0'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost:90'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.29 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost:90/ytwo_git/ytwo/web/index-test.php/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_COOKIE' => '_csrf=2c54b8cb97d8fbd45b955c1ad600004d9e1f2b81d0d70680ddf97a75d06bf259s%3A32%3A%22m-KPNHedfDGIOM4e_D8w2l4Z3Hk0IyY_%22%3B; PHPSESSID=243it4q6mbnc9jhd71dtc6njo3; _identity=8d77ce6ba64d0a2fbb0efb0d230add73fcca7013f98fec5cd24af71115652960s%3A22%3A%22%5B1%2C%22test100key%22%2C86400%5D%22%3B'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\git\\Git\\cmd;D:\\JDK-1.7\\jdk1.8.0_77\\bin;D:\\JDK-1.7\\jdk1.8.0_77\\jre\\bin;C:\\Program Files\\Apache Software Foundation\\Tomcat 7.0\\bin;D:\\phpstudy\\php55;C:\\ProgramData\\ComposerSetup\\bin;D:\\宸ュ叿\\SVN\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '90'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/phpstudy/WWW'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpstudy/WWW'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'D:/phpstudy/WWW/ytwo_git/ytwo/web/index-test.php'
+    'REMOTE_PORT' => '51413'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/ytwo_git/ytwo/web/index-test.php/favicon.ico'
+    'SCRIPT_NAME' => '/ytwo_git/ytwo/web/index-test.php'
+    'PATH_INFO' => '/favicon.ico'
+    'PATH_TRANSLATED' => 'D:\\phpstudy\\WWW\\favicon.ico'
+    'PHP_SELF' => '/ytwo_git/ytwo/web/index-test.php/favicon.ico'
+    'REQUEST_TIME_FLOAT' => 1529634901.681
+    'REQUEST_TIME' => 1529634901
+]
+2018-06-22 10:35:09 [::1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: admin/index/favicon.ico' in D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\base\Controller.php:122
+Stack trace:
+#0 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\base\Module.php(456): yii\base\Controller->runAction('favicon.ico', Array)
+#1 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('admin/index/fav...', Array)
+#2 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 D:\phpstudy\WWW\ytwo_git\ytwo\web\index-test.php(16): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Unable to resolve the request: admin/index/favicon.ico' in D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\web\Application.php:95
+Stack trace:
+#0 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\phpstudy\WWW\ytwo_git\ytwo\web\index-test.php(16): yii\base\Application->run()
+#2 {main}
+2018-06-22 10:35:09 [::1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '2c54b8cb97d8fbd45b955c1ad600004d9e1f2b81d0d70680ddf97a75d06bf259s:32:\"m-KPNHedfDGIOM4e_D8w2l4Z3Hk0IyY_\";'
+    'PHPSESSID' => '243it4q6mbnc9jhd71dtc6njo3'
+]
+
+$_SESSION = [
+    '__returnUrl' => '/ytwo_git/ytwo/web/index-test.php'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost:90'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.29 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost:90/ytwo_git/ytwo/web/index-test.php/admin/index/login'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_COOKIE' => '_csrf=2c54b8cb97d8fbd45b955c1ad600004d9e1f2b81d0d70680ddf97a75d06bf259s%3A32%3A%22m-KPNHedfDGIOM4e_D8w2l4Z3Hk0IyY_%22%3B; PHPSESSID=243it4q6mbnc9jhd71dtc6njo3'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\git\\Git\\cmd;D:\\JDK-1.7\\jdk1.8.0_77\\bin;D:\\JDK-1.7\\jdk1.8.0_77\\jre\\bin;C:\\Program Files\\Apache Software Foundation\\Tomcat 7.0\\bin;D:\\phpstudy\\php55;C:\\ProgramData\\ComposerSetup\\bin;D:\\宸ュ叿\\SVN\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '90'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/phpstudy/WWW'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpstudy/WWW'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'D:/phpstudy/WWW/ytwo_git/ytwo/web/index-test.php'
+    'REMOTE_PORT' => '51418'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/ytwo_git/ytwo/web/index-test.php/admin/index/favicon.ico'
+    'SCRIPT_NAME' => '/ytwo_git/ytwo/web/index-test.php'
+    'PATH_INFO' => '/admin/index/favicon.ico'
+    'PATH_TRANSLATED' => 'D:\\phpstudy\\WWW\\admin\\index\\favicon.ico'
+    'PHP_SELF' => '/ytwo_git/ytwo/web/index-test.php/admin/index/favicon.ico'
+    'REQUEST_TIME_FLOAT' => 1529634909.384
+    'REQUEST_TIME' => 1529634909
+]
+2018-06-22 10:35:20 [::1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: admin/index/favicon.ico' in D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\base\Controller.php:122
+Stack trace:
+#0 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\base\Module.php(456): yii\base\Controller->runAction('favicon.ico', Array)
+#1 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('admin/index/fav...', Array)
+#2 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 D:\phpstudy\WWW\ytwo_git\ytwo\web\index-test.php(16): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Unable to resolve the request: admin/index/favicon.ico' in D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\web\Application.php:95
+Stack trace:
+#0 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\phpstudy\WWW\ytwo_git\ytwo\web\index-test.php(16): yii\base\Application->run()
+#2 {main}
+2018-06-22 10:35:20 [::1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '2c54b8cb97d8fbd45b955c1ad600004d9e1f2b81d0d70680ddf97a75d06bf259s:32:\"m-KPNHedfDGIOM4e_D8w2l4Z3Hk0IyY_\";'
+    'PHPSESSID' => '243it4q6mbnc9jhd71dtc6njo3'
+    '_identity' => '8d77ce6ba64d0a2fbb0efb0d230add73fcca7013f98fec5cd24af71115652960s:22:\"[1,\"test100key\",86400]\";'
+]
+
+$_SESSION = [
+    '__returnUrl' => '/ytwo_git/ytwo/web/index-test.php'
+    '__id' => 1
+    'msg' => '0'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost:90'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.29 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost:90/ytwo_git/ytwo/web/index-test.php/admin/index/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_COOKIE' => '_csrf=2c54b8cb97d8fbd45b955c1ad600004d9e1f2b81d0d70680ddf97a75d06bf259s%3A32%3A%22m-KPNHedfDGIOM4e_D8w2l4Z3Hk0IyY_%22%3B; PHPSESSID=243it4q6mbnc9jhd71dtc6njo3; _identity=8d77ce6ba64d0a2fbb0efb0d230add73fcca7013f98fec5cd24af71115652960s%3A22%3A%22%5B1%2C%22test100key%22%2C86400%5D%22%3B'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\git\\Git\\cmd;D:\\JDK-1.7\\jdk1.8.0_77\\bin;D:\\JDK-1.7\\jdk1.8.0_77\\jre\\bin;C:\\Program Files\\Apache Software Foundation\\Tomcat 7.0\\bin;D:\\phpstudy\\php55;C:\\ProgramData\\ComposerSetup\\bin;D:\\宸ュ叿\\SVN\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '90'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/phpstudy/WWW'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpstudy/WWW'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'D:/phpstudy/WWW/ytwo_git/ytwo/web/index-test.php'
+    'REMOTE_PORT' => '51424'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/ytwo_git/ytwo/web/index-test.php/admin/index/favicon.ico'
+    'SCRIPT_NAME' => '/ytwo_git/ytwo/web/index-test.php'
+    'PATH_INFO' => '/admin/index/favicon.ico'
+    'PATH_TRANSLATED' => 'D:\\phpstudy\\WWW\\admin\\index\\favicon.ico'
+    'PHP_SELF' => '/ytwo_git/ytwo/web/index-test.php/admin/index/favicon.ico'
+    'REQUEST_TIME_FLOAT' => 1529634920.819
+    'REQUEST_TIME' => 1529634920
+]
+2018-06-22 10:35:45 [::1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: admin/index/favicon.ico' in D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\base\Controller.php:122
+Stack trace:
+#0 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\base\Module.php(456): yii\base\Controller->runAction('favicon.ico', Array)
+#1 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('admin/index/fav...', Array)
+#2 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 D:\phpstudy\WWW\ytwo_git\ytwo\web\index-test.php(16): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Unable to resolve the request: admin/index/favicon.ico' in D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\web\Application.php:95
+Stack trace:
+#0 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\phpstudy\WWW\ytwo_git\ytwo\web\index-test.php(16): yii\base\Application->run()
+#2 {main}
+2018-06-22 10:35:45 [::1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '2c54b8cb97d8fbd45b955c1ad600004d9e1f2b81d0d70680ddf97a75d06bf259s:32:\"m-KPNHedfDGIOM4e_D8w2l4Z3Hk0IyY_\";'
+    'PHPSESSID' => '243it4q6mbnc9jhd71dtc6njo3'
+]
+
+$_SESSION = [
+    '__returnUrl' => '/ytwo_git/ytwo/web/index-test.php'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost:90'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.29 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost:90/ytwo_git/ytwo/web/index-test.php/admin/index/login'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_COOKIE' => '_csrf=2c54b8cb97d8fbd45b955c1ad600004d9e1f2b81d0d70680ddf97a75d06bf259s%3A32%3A%22m-KPNHedfDGIOM4e_D8w2l4Z3Hk0IyY_%22%3B; PHPSESSID=243it4q6mbnc9jhd71dtc6njo3'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\git\\Git\\cmd;D:\\JDK-1.7\\jdk1.8.0_77\\bin;D:\\JDK-1.7\\jdk1.8.0_77\\jre\\bin;C:\\Program Files\\Apache Software Foundation\\Tomcat 7.0\\bin;D:\\phpstudy\\php55;C:\\ProgramData\\ComposerSetup\\bin;D:\\宸ュ叿\\SVN\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '90'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/phpstudy/WWW'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpstudy/WWW'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'D:/phpstudy/WWW/ytwo_git/ytwo/web/index-test.php'
+    'REMOTE_PORT' => '51439'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/ytwo_git/ytwo/web/index-test.php/admin/index/favicon.ico'
+    'SCRIPT_NAME' => '/ytwo_git/ytwo/web/index-test.php'
+    'PATH_INFO' => '/admin/index/favicon.ico'
+    'PATH_TRANSLATED' => 'D:\\phpstudy\\WWW\\admin\\index\\favicon.ico'
+    'PHP_SELF' => '/ytwo_git/ytwo/web/index-test.php/admin/index/favicon.ico'
+    'REQUEST_TIME_FLOAT' => 1529634945.101
+    'REQUEST_TIME' => 1529634945
+]
+2018-06-22 10:36:10 [::1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: admin/index/favicon.ico' in D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\base\Controller.php:122
+Stack trace:
+#0 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\base\Module.php(456): yii\base\Controller->runAction('favicon.ico', Array)
+#1 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('admin/index/fav...', Array)
+#2 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 D:\phpstudy\WWW\ytwo_git\ytwo\web\index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Unable to resolve the request: admin/index/favicon.ico' in D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\web\Application.php:95
+Stack trace:
+#0 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\phpstudy\WWW\ytwo_git\ytwo\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2018-06-22 10:36:10 [::1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '2c54b8cb97d8fbd45b955c1ad600004d9e1f2b81d0d70680ddf97a75d06bf259s:32:\"m-KPNHedfDGIOM4e_D8w2l4Z3Hk0IyY_\";'
+    'PHPSESSID' => '243it4q6mbnc9jhd71dtc6njo3'
+]
+
+$_SESSION = [
+    '__returnUrl' => '/ytwo_git/ytwo/web/index-test.php'
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost:90'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.29 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost:90/ytwo_git/ytwo/web/index.php/admin/index/login'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_COOKIE' => '_csrf=2c54b8cb97d8fbd45b955c1ad600004d9e1f2b81d0d70680ddf97a75d06bf259s%3A32%3A%22m-KPNHedfDGIOM4e_D8w2l4Z3Hk0IyY_%22%3B; PHPSESSID=243it4q6mbnc9jhd71dtc6njo3'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\git\\Git\\cmd;D:\\JDK-1.7\\jdk1.8.0_77\\bin;D:\\JDK-1.7\\jdk1.8.0_77\\jre\\bin;C:\\Program Files\\Apache Software Foundation\\Tomcat 7.0\\bin;D:\\phpstudy\\php55;C:\\ProgramData\\ComposerSetup\\bin;D:\\宸ュ叿\\SVN\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '90'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/phpstudy/WWW'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpstudy/WWW'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'D:/phpstudy/WWW/ytwo_git/ytwo/web/index.php'
+    'REMOTE_PORT' => '51470'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/ytwo_git/ytwo/web/index.php/admin/index/favicon.ico'
+    'SCRIPT_NAME' => '/ytwo_git/ytwo/web/index.php'
+    'PATH_INFO' => '/admin/index/favicon.ico'
+    'PATH_TRANSLATED' => 'D:\\phpstudy\\WWW\\admin\\index\\favicon.ico'
+    'PHP_SELF' => '/ytwo_git/ytwo/web/index.php/admin/index/favicon.ico'
+    'REQUEST_TIME_FLOAT' => 1529634970.314
+    'REQUEST_TIME' => 1529634970
+]
+2018-06-22 10:47:11 [::1][-][b8o5uc814sj79div7avdc6unh0][error][yii\base\ErrorException:64] exception 'yii\base\ErrorException' with message 'Cannot redeclare class Yii' in D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\Yii.php:23
+Stack trace:
+#0 {main}
+2018-06-22 10:47:11 [::1][-][b8o5uc814sj79div7avdc6unh0][info][application] $_COOKIE = [
+    '_csrf' => '2c54b8cb97d8fbd45b955c1ad600004d9e1f2b81d0d70680ddf97a75d06bf259s:32:\"m-KPNHedfDGIOM4e_D8w2l4Z3Hk0IyY_\";'
+    'PHPSESSID' => 'b8o5uc814sj79div7avdc6unh0'
+]
+
+$_SESSION = [
+    '__returnUrl' => '/ytwo/web/index-test.php'
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost:90'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.29 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_COOKIE' => '_csrf=2c54b8cb97d8fbd45b955c1ad600004d9e1f2b81d0d70680ddf97a75d06bf259s%3A32%3A%22m-KPNHedfDGIOM4e_D8w2l4Z3Hk0IyY_%22%3B; PHPSESSID=b8o5uc814sj79div7avdc6unh0'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\git\\Git\\cmd;D:\\JDK-1.7\\jdk1.8.0_77\\bin;D:\\JDK-1.7\\jdk1.8.0_77\\jre\\bin;C:\\Program Files\\Apache Software Foundation\\Tomcat 7.0\\bin;D:\\phpstudy\\php55;C:\\ProgramData\\ComposerSetup\\bin;D:\\宸ュ叿\\SVN\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '90'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/phpstudy/WWW'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpstudy/WWW'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'D:/phpstudy/WWW/ytwo_git/ytwo/web/index.php'
+    'REMOTE_PORT' => '51773'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/ytwo_git/ytwo/web/index.php/admin/index/login'
+    'SCRIPT_NAME' => '/ytwo_git/ytwo/web/index.php'
+    'PATH_INFO' => '/admin/index/login'
+    'PATH_TRANSLATED' => 'D:\\phpstudy\\WWW\\admin\\index\\login'
+    'PHP_SELF' => '/ytwo_git/ytwo/web/index.php/admin/index/login'
+    'REQUEST_TIME_FLOAT' => 1529635631.266
+    'REQUEST_TIME' => 1529635631
+]
+2018-06-22 10:49:09 [::1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: admin/index/favicon.ico' in D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\base\Controller.php:122
+Stack trace:
+#0 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\base\Module.php(456): yii\base\Controller->runAction('favicon.ico', Array)
+#1 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('admin/index/fav...', Array)
+#2 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 D:\phpstudy\WWW\ytwo_git\ytwo\web\index-test.php(16): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Unable to resolve the request: admin/index/favicon.ico' in D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\web\Application.php:95
+Stack trace:
+#0 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\phpstudy\WWW\ytwo_git\ytwo\web\index-test.php(16): yii\base\Application->run()
+#2 {main}
+2018-06-22 10:49:09 [::1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '2c54b8cb97d8fbd45b955c1ad600004d9e1f2b81d0d70680ddf97a75d06bf259s:32:\"m-KPNHedfDGIOM4e_D8w2l4Z3Hk0IyY_\";'
+    'PHPSESSID' => 'b8o5uc814sj79div7avdc6unh0'
+]
+
+$_SESSION = [
+    '__returnUrl' => '/ytwo/web/index-test.php'
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost:90'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.29 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost:90/ytwo_git/ytwo/web/index-test.php/admin/index/login'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_COOKIE' => '_csrf=2c54b8cb97d8fbd45b955c1ad600004d9e1f2b81d0d70680ddf97a75d06bf259s%3A32%3A%22m-KPNHedfDGIOM4e_D8w2l4Z3Hk0IyY_%22%3B; PHPSESSID=b8o5uc814sj79div7avdc6unh0'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\git\\Git\\cmd;D:\\JDK-1.7\\jdk1.8.0_77\\bin;D:\\JDK-1.7\\jdk1.8.0_77\\jre\\bin;C:\\Program Files\\Apache Software Foundation\\Tomcat 7.0\\bin;D:\\phpstudy\\php55;C:\\ProgramData\\ComposerSetup\\bin;D:\\宸ュ叿\\SVN\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '90'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/phpstudy/WWW'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpstudy/WWW'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'D:/phpstudy/WWW/ytwo_git/ytwo/web/index-test.php'
+    'REMOTE_PORT' => '51838'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/ytwo_git/ytwo/web/index-test.php/admin/index/favicon.ico'
+    'SCRIPT_NAME' => '/ytwo_git/ytwo/web/index-test.php'
+    'PATH_INFO' => '/admin/index/favicon.ico'
+    'PATH_TRANSLATED' => 'D:\\phpstudy\\WWW\\admin\\index\\favicon.ico'
+    'PHP_SELF' => '/ytwo_git/ytwo/web/index-test.php/admin/index/favicon.ico'
+    'REQUEST_TIME_FLOAT' => 1529635749.185
+    'REQUEST_TIME' => 1529635749
+]
+2018-06-22 10:49:18 [::1][-][b8o5uc814sj79div7avdc6unh0][error][yii\base\ErrorException:64] exception 'yii\base\ErrorException' with message 'Cannot redeclare class Yii' in D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\Yii.php:23
+Stack trace:
+#0 {main}
+2018-06-22 10:49:18 [::1][-][b8o5uc814sj79div7avdc6unh0][info][application] $_COOKIE = [
+    '_csrf' => '2c54b8cb97d8fbd45b955c1ad600004d9e1f2b81d0d70680ddf97a75d06bf259s:32:\"m-KPNHedfDGIOM4e_D8w2l4Z3Hk0IyY_\";'
+    'PHPSESSID' => 'b8o5uc814sj79div7avdc6unh0'
+]
+
+$_SESSION = [
+    '__returnUrl' => '/ytwo/web/index-test.php'
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost:90'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.29 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_COOKIE' => '_csrf=2c54b8cb97d8fbd45b955c1ad600004d9e1f2b81d0d70680ddf97a75d06bf259s%3A32%3A%22m-KPNHedfDGIOM4e_D8w2l4Z3Hk0IyY_%22%3B; PHPSESSID=b8o5uc814sj79div7avdc6unh0'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\git\\Git\\cmd;D:\\JDK-1.7\\jdk1.8.0_77\\bin;D:\\JDK-1.7\\jdk1.8.0_77\\jre\\bin;C:\\Program Files\\Apache Software Foundation\\Tomcat 7.0\\bin;D:\\phpstudy\\php55;C:\\ProgramData\\ComposerSetup\\bin;D:\\宸ュ叿\\SVN\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '90'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/phpstudy/WWW'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpstudy/WWW'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'D:/phpstudy/WWW/ytwo_git/ytwo/web/index.php'
+    'REMOTE_PORT' => '51839'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/ytwo_git/ytwo/web/index.php/admin/index/login'
+    'SCRIPT_NAME' => '/ytwo_git/ytwo/web/index.php'
+    'PATH_INFO' => '/admin/index/login'
+    'PATH_TRANSLATED' => 'D:\\phpstudy\\WWW\\admin\\index\\login'
+    'PHP_SELF' => '/ytwo_git/ytwo/web/index.php/admin/index/login'
+    'REQUEST_TIME_FLOAT' => 1529635758.066
+    'REQUEST_TIME' => 1529635758
+]
+2018-06-22 10:55:06 [::1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: admin/index/favicon.ico' in D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\base\Controller.php:122
+Stack trace:
+#0 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\base\Module.php(456): yii\base\Controller->runAction('favicon.ico', Array)
+#1 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('admin/index/fav...', Array)
+#2 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 D:\phpstudy\WWW\ytwo_git\ytwo\web\index-test.php(16): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Unable to resolve the request: admin/index/favicon.ico' in D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\web\Application.php:95
+Stack trace:
+#0 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\phpstudy\WWW\ytwo_git\ytwo\web\index-test.php(16): yii\base\Application->run()
+#2 {main}
+2018-06-22 10:55:06 [::1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '2c54b8cb97d8fbd45b955c1ad600004d9e1f2b81d0d70680ddf97a75d06bf259s:32:\"m-KPNHedfDGIOM4e_D8w2l4Z3Hk0IyY_\";'
+    'PHPSESSID' => 'b8o5uc814sj79div7avdc6unh0'
+]
+
+$_SESSION = [
+    '__returnUrl' => '/ytwo/web/index-test.php'
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost:90'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.29 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost:90/ytwo_git/ytwo/web/index-test.php/admin/index/login'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_COOKIE' => '_csrf=2c54b8cb97d8fbd45b955c1ad600004d9e1f2b81d0d70680ddf97a75d06bf259s%3A32%3A%22m-KPNHedfDGIOM4e_D8w2l4Z3Hk0IyY_%22%3B; PHPSESSID=b8o5uc814sj79div7avdc6unh0'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\git\\Git\\cmd;D:\\JDK-1.7\\jdk1.8.0_77\\bin;D:\\JDK-1.7\\jdk1.8.0_77\\jre\\bin;C:\\Program Files\\Apache Software Foundation\\Tomcat 7.0\\bin;D:\\phpstudy\\php55;C:\\ProgramData\\ComposerSetup\\bin;D:\\宸ュ叿\\SVN\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '90'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/phpstudy/WWW'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpstudy/WWW'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'D:/phpstudy/WWW/ytwo_git/ytwo/web/index-test.php'
+    'REMOTE_PORT' => '51972'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/ytwo_git/ytwo/web/index-test.php/admin/index/favicon.ico'
+    'SCRIPT_NAME' => '/ytwo_git/ytwo/web/index-test.php'
+    'PATH_INFO' => '/admin/index/favicon.ico'
+    'PATH_TRANSLATED' => 'D:\\phpstudy\\WWW\\admin\\index\\favicon.ico'
+    'PHP_SELF' => '/ytwo_git/ytwo/web/index-test.php/admin/index/favicon.ico'
+    'REQUEST_TIME_FLOAT' => 1529636106.813
+    'REQUEST_TIME' => 1529636106
+]
+2018-06-22 10:55:12 [::1][-][-][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'testlinux'' in D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\db\Connection.php:579
+Stack trace:
+#0 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\db\Connection.php(579): PDO->__construct('mysql:host=loca...', 'root', 'root', NULL)
+#1 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\db\Connection.php(529): yii\db\Connection->createPdoInstance()
+#2 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\db\Connection.php(836): yii\db\Connection->open()
+#3 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\db\Connection.php(823): yii\db\Connection->getMasterPdo()
+#4 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\db\Schema.php(382): yii\db\Connection->getSlavePdo()
+#5 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\db\Connection.php(732): yii\db\Schema->quoteValue('admin')
+#6 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\db\Command.php(164): yii\db\Connection->quoteValue('admin')
+#7 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\db\Command.php(791): yii\db\Command->getRawSql()
+#8 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\db\Command.php(364): yii\db\Command->queryInternal('fetch', NULL)
+#9 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\db\Query.php(243): yii\db\Command->queryOne()
+#10 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\db\ActiveQuery.php(285): yii\db\Query->one(NULL)
+#11 D:\phpstudy\WWW\ytwo_git\ytwo\models\UserForm.php(55): yii\db\ActiveQuery->one()
+#12 D:\phpstudy\WWW\ytwo_git\ytwo\models\UserForm.php(42): app\models\UserForm->getUser()
+#13 [internal function]: app\models\UserForm->validatePassword('pwd', NULL)
+#14 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\validators\InlineValidator.php(67): call_user_func(Array, 'pwd', NULL)
+#15 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\validators\Validator.php(238): yii\validators\InlineValidator->validateAttribute(Object(app\models\UserForm), 'pwd')
+#16 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\base\Model.php(333): yii\validators\Validator->validateAttributes(Object(app\models\UserForm), Array)
+#17 D:\phpstudy\WWW\ytwo_git\ytwo\models\UserForm.php(66): yii\base\Model->validate()
+#18 D:\phpstudy\WWW\ytwo_git\ytwo\modules\controllers\IndexController.php(164): app\models\UserForm->login()
+#19 [internal function]: app\modules\controllers\IndexController->actionLogin()
+#20 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#21 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#22 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\base\Module.php(456): yii\base\Controller->runAction('login', Array)
+#23 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('admin/index/log...', Array)
+#24 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#25 D:\phpstudy\WWW\ytwo_git\ytwo\web\index-test.php(16): yii\base\Application->run()
+#26 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[HY000] [1049] Unknown database 'testlinux'' in D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\db\Connection.php:534
+Stack trace:
+#0 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\db\Connection.php(836): yii\db\Connection->open()
+#1 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\db\Connection.php(823): yii\db\Connection->getMasterPdo()
+#2 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\db\Schema.php(382): yii\db\Connection->getSlavePdo()
+#3 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\db\Connection.php(732): yii\db\Schema->quoteValue('admin')
+#4 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\db\Command.php(164): yii\db\Connection->quoteValue('admin')
+#5 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\db\Command.php(791): yii\db\Command->getRawSql()
+#6 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\db\Command.php(364): yii\db\Command->queryInternal('fetch', NULL)
+#7 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\db\Query.php(243): yii\db\Command->queryOne()
+#8 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\db\ActiveQuery.php(285): yii\db\Query->one(NULL)
+#9 D:\phpstudy\WWW\ytwo_git\ytwo\models\UserForm.php(55): yii\db\ActiveQuery->one()
+#10 D:\phpstudy\WWW\ytwo_git\ytwo\models\UserForm.php(42): app\models\UserForm->getUser()
+#11 [internal function]: app\models\UserForm->validatePassword('pwd', NULL)
+#12 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\validators\InlineValidator.php(67): call_user_func(Array, 'pwd', NULL)
+#13 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\validators\Validator.php(238): yii\validators\InlineValidator->validateAttribute(Object(app\models\UserForm), 'pwd')
+#14 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\base\Model.php(333): yii\validators\Validator->validateAttributes(Object(app\models\UserForm), Array)
+#15 D:\phpstudy\WWW\ytwo_git\ytwo\models\UserForm.php(66): yii\base\Model->validate()
+#16 D:\phpstudy\WWW\ytwo_git\ytwo\modules\controllers\IndexController.php(164): app\models\UserForm->login()
+#17 [internal function]: app\modules\controllers\IndexController->actionLogin()
+#18 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#19 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#20 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\base\Module.php(456): yii\base\Controller->runAction('login', Array)
+#21 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('admin/index/log...', Array)
+#22 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#23 D:\phpstudy\WWW\ytwo_git\ytwo\web\index-test.php(16): yii\base\Application->run()
+#24 {main}
+Additional Information:
+
+2018-06-22 10:55:11 [::1][-][-][info][application] $_POST = [
+    '_csrf' => 'Sm91eGtiTXAnQj4oJSooFCwrMjEkL3kVFStND1kOeSp5Jx5IIhsULw=='
+    'UserForm' => [
+        'user' => 'admin'
+        'pwd' => 'admin'
+    ]
+    'submit-button' => ''
+]
+
+$_COOKIE = [
+    '_csrf' => '2c54b8cb97d8fbd45b955c1ad600004d9e1f2b81d0d70680ddf97a75d06bf259s:32:\"m-KPNHedfDGIOM4e_D8w2l4Z3Hk0IyY_\";'
+    'PHPSESSID' => 'b8o5uc814sj79div7avdc6unh0'
+]
+
+$_SESSION = [
+    '__returnUrl' => '/ytwo/web/index-test.php'
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost:90'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '503'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ORIGIN' => 'http://localhost:90'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'CONTENT_TYPE' => 'multipart/form-data; boundary=----WebKitFormBoundary2hcX1p3N9s3iWurr'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.29 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost:90/ytwo_git/ytwo/web/index-test.php/admin/index/login'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_COOKIE' => '_csrf=2c54b8cb97d8fbd45b955c1ad600004d9e1f2b81d0d70680ddf97a75d06bf259s%3A32%3A%22m-KPNHedfDGIOM4e_D8w2l4Z3Hk0IyY_%22%3B; PHPSESSID=b8o5uc814sj79div7avdc6unh0'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\git\\Git\\cmd;D:\\JDK-1.7\\jdk1.8.0_77\\bin;D:\\JDK-1.7\\jdk1.8.0_77\\jre\\bin;C:\\Program Files\\Apache Software Foundation\\Tomcat 7.0\\bin;D:\\phpstudy\\php55;C:\\ProgramData\\ComposerSetup\\bin;D:\\宸ュ叿\\SVN\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '90'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/phpstudy/WWW'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpstudy/WWW'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'D:/phpstudy/WWW/ytwo_git/ytwo/web/index-test.php'
+    'REMOTE_PORT' => '51972'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/ytwo_git/ytwo/web/index-test.php/admin/index/login'
+    'SCRIPT_NAME' => '/ytwo_git/ytwo/web/index-test.php'
+    'PATH_INFO' => '/admin/index/login'
+    'PATH_TRANSLATED' => 'D:\\phpstudy\\WWW\\admin\\index\\login'
+    'PHP_SELF' => '/ytwo_git/ytwo/web/index-test.php/admin/index/login'
+    'REQUEST_TIME_FLOAT' => 1529636111.439
+    'REQUEST_TIME' => 1529636111
+]
+2018-06-22 10:57:24 [::1][-][-][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'testlinux'' in D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\db\Connection.php:579
+Stack trace:
+#0 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\db\Connection.php(579): PDO->__construct('mysql:host=loca...', 'root', 'root', NULL)
+#1 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\db\Connection.php(529): yii\db\Connection->createPdoInstance()
+#2 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\db\Connection.php(836): yii\db\Connection->open()
+#3 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\db\Connection.php(823): yii\db\Connection->getMasterPdo()
+#4 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\db\Schema.php(382): yii\db\Connection->getSlavePdo()
+#5 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\db\Connection.php(732): yii\db\Schema->quoteValue('admin')
+#6 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\db\Command.php(164): yii\db\Connection->quoteValue('admin')
+#7 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\db\Command.php(791): yii\db\Command->getRawSql()
+#8 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\db\Command.php(364): yii\db\Command->queryInternal('fetch', NULL)
+#9 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\db\Query.php(243): yii\db\Command->queryOne()
+#10 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\db\ActiveQuery.php(285): yii\db\Query->one(NULL)
+#11 D:\phpstudy\WWW\ytwo_git\ytwo\models\UserForm.php(55): yii\db\ActiveQuery->one()
+#12 D:\phpstudy\WWW\ytwo_git\ytwo\models\UserForm.php(42): app\models\UserForm->getUser()
+#13 [internal function]: app\models\UserForm->validatePassword('pwd', NULL)
+#14 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\validators\InlineValidator.php(67): call_user_func(Array, 'pwd', NULL)
+#15 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\validators\Validator.php(238): yii\validators\InlineValidator->validateAttribute(Object(app\models\UserForm), 'pwd')
+#16 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\base\Model.php(333): yii\validators\Validator->validateAttributes(Object(app\models\UserForm), Array)
+#17 D:\phpstudy\WWW\ytwo_git\ytwo\models\UserForm.php(66): yii\base\Model->validate()
+#18 D:\phpstudy\WWW\ytwo_git\ytwo\modules\controllers\IndexController.php(164): app\models\UserForm->login()
+#19 [internal function]: app\modules\controllers\IndexController->actionLogin()
+#20 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#21 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#22 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\base\Module.php(456): yii\base\Controller->runAction('login', Array)
+#23 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('admin/index/log...', Array)
+#24 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#25 D:\phpstudy\WWW\ytwo_git\ytwo\web\index-test.php(16): yii\base\Application->run()
+#26 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[HY000] [1049] Unknown database 'testlinux'' in D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\db\Connection.php:534
+Stack trace:
+#0 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\db\Connection.php(836): yii\db\Connection->open()
+#1 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\db\Connection.php(823): yii\db\Connection->getMasterPdo()
+#2 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\db\Schema.php(382): yii\db\Connection->getSlavePdo()
+#3 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\db\Connection.php(732): yii\db\Schema->quoteValue('admin')
+#4 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\db\Command.php(164): yii\db\Connection->quoteValue('admin')
+#5 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\db\Command.php(791): yii\db\Command->getRawSql()
+#6 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\db\Command.php(364): yii\db\Command->queryInternal('fetch', NULL)
+#7 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\db\Query.php(243): yii\db\Command->queryOne()
+#8 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\db\ActiveQuery.php(285): yii\db\Query->one(NULL)
+#9 D:\phpstudy\WWW\ytwo_git\ytwo\models\UserForm.php(55): yii\db\ActiveQuery->one()
+#10 D:\phpstudy\WWW\ytwo_git\ytwo\models\UserForm.php(42): app\models\UserForm->getUser()
+#11 [internal function]: app\models\UserForm->validatePassword('pwd', NULL)
+#12 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\validators\InlineValidator.php(67): call_user_func(Array, 'pwd', NULL)
+#13 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\validators\Validator.php(238): yii\validators\InlineValidator->validateAttribute(Object(app\models\UserForm), 'pwd')
+#14 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\base\Model.php(333): yii\validators\Validator->validateAttributes(Object(app\models\UserForm), Array)
+#15 D:\phpstudy\WWW\ytwo_git\ytwo\models\UserForm.php(66): yii\base\Model->validate()
+#16 D:\phpstudy\WWW\ytwo_git\ytwo\modules\controllers\IndexController.php(164): app\models\UserForm->login()
+#17 [internal function]: app\modules\controllers\IndexController->actionLogin()
+#18 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#19 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#20 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\base\Module.php(456): yii\base\Controller->runAction('login', Array)
+#21 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('admin/index/log...', Array)
+#22 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#23 D:\phpstudy\WWW\ytwo_git\ytwo\web\index-test.php(16): yii\base\Application->run()
+#24 {main}
+Additional Information:
+
+2018-06-22 10:57:23 [::1][-][-][info][application] $_POST = [
+    '_csrf' => 'Sm91eGtiTXAnQj4oJSooFCwrMjEkL3kVFStND1kOeSp5Jx5IIhsULw=='
+    'UserForm' => [
+        'user' => 'admin'
+        'pwd' => 'admin'
+    ]
+    'submit-button' => ''
+]
+
+$_COOKIE = [
+    '_csrf' => '2c54b8cb97d8fbd45b955c1ad600004d9e1f2b81d0d70680ddf97a75d06bf259s:32:\"m-KPNHedfDGIOM4e_D8w2l4Z3Hk0IyY_\";'
+    'PHPSESSID' => 'b8o5uc814sj79div7avdc6unh0'
+]
+
+$_SESSION = [
+    '__returnUrl' => '/ytwo/web/index-test.php'
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost:90'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '503'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.29 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ORIGIN' => 'http://localhost:90'
+    'CONTENT_TYPE' => 'multipart/form-data; boundary=----WebKitFormBoundary2hcX1p3N9s3iWurr'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost:90/ytwo_git/ytwo/web/index-test.php/admin/index/login'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_COOKIE' => '_csrf=2c54b8cb97d8fbd45b955c1ad600004d9e1f2b81d0d70680ddf97a75d06bf259s%3A32%3A%22m-KPNHedfDGIOM4e_D8w2l4Z3Hk0IyY_%22%3B; PHPSESSID=b8o5uc814sj79div7avdc6unh0'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\git\\Git\\cmd;D:\\JDK-1.7\\jdk1.8.0_77\\bin;D:\\JDK-1.7\\jdk1.8.0_77\\jre\\bin;C:\\Program Files\\Apache Software Foundation\\Tomcat 7.0\\bin;D:\\phpstudy\\php55;C:\\ProgramData\\ComposerSetup\\bin;D:\\宸ュ叿\\SVN\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '90'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/phpstudy/WWW'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpstudy/WWW'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'D:/phpstudy/WWW/ytwo_git/ytwo/web/index-test.php'
+    'REMOTE_PORT' => '52015'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/ytwo_git/ytwo/web/index-test.php/admin/index/login'
+    'SCRIPT_NAME' => '/ytwo_git/ytwo/web/index-test.php'
+    'PATH_INFO' => '/admin/index/login'
+    'PATH_TRANSLATED' => 'D:\\phpstudy\\WWW\\admin\\index\\login'
+    'PHP_SELF' => '/ytwo_git/ytwo/web/index-test.php/admin/index/login'
+    'REQUEST_TIME_FLOAT' => 1529636243.545
+    'REQUEST_TIME' => 1529636243
+]
+2018-06-22 10:57:26 [::1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: admin/index/favicon.ico' in D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\base\Controller.php:122
+Stack trace:
+#0 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\base\Module.php(456): yii\base\Controller->runAction('favicon.ico', Array)
+#1 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('admin/index/fav...', Array)
+#2 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 D:\phpstudy\WWW\ytwo_git\ytwo\web\index-test.php(16): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Unable to resolve the request: admin/index/favicon.ico' in D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\web\Application.php:95
+Stack trace:
+#0 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\phpstudy\WWW\ytwo_git\ytwo\web\index-test.php(16): yii\base\Application->run()
+#2 {main}
+2018-06-22 10:57:26 [::1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '2c54b8cb97d8fbd45b955c1ad600004d9e1f2b81d0d70680ddf97a75d06bf259s:32:\"m-KPNHedfDGIOM4e_D8w2l4Z3Hk0IyY_\";'
+    'PHPSESSID' => 'b8o5uc814sj79div7avdc6unh0'
+]
+
+$_SESSION = [
+    '__returnUrl' => '/ytwo/web/index-test.php'
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost:90'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.29 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost:90/ytwo_git/ytwo/web/index-test.php/admin/index/login'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_COOKIE' => '_csrf=2c54b8cb97d8fbd45b955c1ad600004d9e1f2b81d0d70680ddf97a75d06bf259s%3A32%3A%22m-KPNHedfDGIOM4e_D8w2l4Z3Hk0IyY_%22%3B; PHPSESSID=b8o5uc814sj79div7avdc6unh0'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\git\\Git\\cmd;D:\\JDK-1.7\\jdk1.8.0_77\\bin;D:\\JDK-1.7\\jdk1.8.0_77\\jre\\bin;C:\\Program Files\\Apache Software Foundation\\Tomcat 7.0\\bin;D:\\phpstudy\\php55;C:\\ProgramData\\ComposerSetup\\bin;D:\\宸ュ叿\\SVN\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '90'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/phpstudy/WWW'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpstudy/WWW'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'D:/phpstudy/WWW/ytwo_git/ytwo/web/index-test.php'
+    'REMOTE_PORT' => '52016'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/ytwo_git/ytwo/web/index-test.php/admin/index/favicon.ico'
+    'SCRIPT_NAME' => '/ytwo_git/ytwo/web/index-test.php'
+    'PATH_INFO' => '/admin/index/favicon.ico'
+    'PATH_TRANSLATED' => 'D:\\phpstudy\\WWW\\admin\\index\\favicon.ico'
+    'PHP_SELF' => '/ytwo_git/ytwo/web/index-test.php/admin/index/favicon.ico'
+    'REQUEST_TIME_FLOAT' => 1529636246.358
+    'REQUEST_TIME' => 1529636246
+]
+2018-06-22 10:57:30 [::1][-][-][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'testlinux'' in D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\db\Connection.php:579
+Stack trace:
+#0 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\db\Connection.php(579): PDO->__construct('mysql:host=loca...', 'root', 'root', NULL)
+#1 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\db\Connection.php(529): yii\db\Connection->createPdoInstance()
+#2 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\db\Connection.php(836): yii\db\Connection->open()
+#3 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\db\Connection.php(823): yii\db\Connection->getMasterPdo()
+#4 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\db\Schema.php(382): yii\db\Connection->getSlavePdo()
+#5 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\db\Connection.php(732): yii\db\Schema->quoteValue('admin')
+#6 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\db\Command.php(164): yii\db\Connection->quoteValue('admin')
+#7 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\db\Command.php(791): yii\db\Command->getRawSql()
+#8 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\db\Command.php(364): yii\db\Command->queryInternal('fetch', NULL)
+#9 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\db\Query.php(243): yii\db\Command->queryOne()
+#10 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\db\ActiveQuery.php(285): yii\db\Query->one(NULL)
+#11 D:\phpstudy\WWW\ytwo_git\ytwo\models\UserForm.php(55): yii\db\ActiveQuery->one()
+#12 D:\phpstudy\WWW\ytwo_git\ytwo\models\UserForm.php(42): app\models\UserForm->getUser()
+#13 [internal function]: app\models\UserForm->validatePassword('pwd', NULL)
+#14 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\validators\InlineValidator.php(67): call_user_func(Array, 'pwd', NULL)
+#15 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\validators\Validator.php(238): yii\validators\InlineValidator->validateAttribute(Object(app\models\UserForm), 'pwd')
+#16 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\base\Model.php(333): yii\validators\Validator->validateAttributes(Object(app\models\UserForm), Array)
+#17 D:\phpstudy\WWW\ytwo_git\ytwo\models\UserForm.php(66): yii\base\Model->validate()
+#18 D:\phpstudy\WWW\ytwo_git\ytwo\modules\controllers\IndexController.php(164): app\models\UserForm->login()
+#19 [internal function]: app\modules\controllers\IndexController->actionLogin()
+#20 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#21 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#22 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\base\Module.php(456): yii\base\Controller->runAction('login', Array)
+#23 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('admin/index/log...', Array)
+#24 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#25 D:\phpstudy\WWW\ytwo_git\ytwo\web\index-test.php(16): yii\base\Application->run()
+#26 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[HY000] [1049] Unknown database 'testlinux'' in D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\db\Connection.php:534
+Stack trace:
+#0 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\db\Connection.php(836): yii\db\Connection->open()
+#1 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\db\Connection.php(823): yii\db\Connection->getMasterPdo()
+#2 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\db\Schema.php(382): yii\db\Connection->getSlavePdo()
+#3 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\db\Connection.php(732): yii\db\Schema->quoteValue('admin')
+#4 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\db\Command.php(164): yii\db\Connection->quoteValue('admin')
+#5 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\db\Command.php(791): yii\db\Command->getRawSql()
+#6 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\db\Command.php(364): yii\db\Command->queryInternal('fetch', NULL)
+#7 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\db\Query.php(243): yii\db\Command->queryOne()
+#8 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\db\ActiveQuery.php(285): yii\db\Query->one(NULL)
+#9 D:\phpstudy\WWW\ytwo_git\ytwo\models\UserForm.php(55): yii\db\ActiveQuery->one()
+#10 D:\phpstudy\WWW\ytwo_git\ytwo\models\UserForm.php(42): app\models\UserForm->getUser()
+#11 [internal function]: app\models\UserForm->validatePassword('pwd', NULL)
+#12 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\validators\InlineValidator.php(67): call_user_func(Array, 'pwd', NULL)
+#13 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\validators\Validator.php(238): yii\validators\InlineValidator->validateAttribute(Object(app\models\UserForm), 'pwd')
+#14 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\base\Model.php(333): yii\validators\Validator->validateAttributes(Object(app\models\UserForm), Array)
+#15 D:\phpstudy\WWW\ytwo_git\ytwo\models\UserForm.php(66): yii\base\Model->validate()
+#16 D:\phpstudy\WWW\ytwo_git\ytwo\modules\controllers\IndexController.php(164): app\models\UserForm->login()
+#17 [internal function]: app\modules\controllers\IndexController->actionLogin()
+#18 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#19 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#20 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\base\Module.php(456): yii\base\Controller->runAction('login', Array)
+#21 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('admin/index/log...', Array)
+#22 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#23 D:\phpstudy\WWW\ytwo_git\ytwo\web\index-test.php(16): yii\base\Application->run()
+#24 {main}
+Additional Information:
+
+2018-06-22 10:57:29 [::1][-][-][info][application] $_POST = [
+    '_csrf' => 'SndueHVhODcnWiUoOyldUywzKTE6LAxSFTNWD0cNDG15PwVIPBhhaA=='
+    'UserForm' => [
+        'user' => 'admin'
+        'pwd' => 'admin'
+    ]
+    'submit-button' => ''
+]
+
+$_COOKIE = [
+    '_csrf' => '2c54b8cb97d8fbd45b955c1ad600004d9e1f2b81d0d70680ddf97a75d06bf259s:32:\"m-KPNHedfDGIOM4e_D8w2l4Z3Hk0IyY_\";'
+    'PHPSESSID' => 'b8o5uc814sj79div7avdc6unh0'
+]
+
+$_SESSION = [
+    '__returnUrl' => '/ytwo/web/index-test.php'
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost:90'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '503'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ORIGIN' => 'http://localhost:90'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'CONTENT_TYPE' => 'multipart/form-data; boundary=----WebKitFormBoundary9rsR3kF32m1gCjA7'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.29 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost:90/ytwo_git/ytwo/web/index-test.php/admin/index/login'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_COOKIE' => '_csrf=2c54b8cb97d8fbd45b955c1ad600004d9e1f2b81d0d70680ddf97a75d06bf259s%3A32%3A%22m-KPNHedfDGIOM4e_D8w2l4Z3Hk0IyY_%22%3B; PHPSESSID=b8o5uc814sj79div7avdc6unh0'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\git\\Git\\cmd;D:\\JDK-1.7\\jdk1.8.0_77\\bin;D:\\JDK-1.7\\jdk1.8.0_77\\jre\\bin;C:\\Program Files\\Apache Software Foundation\\Tomcat 7.0\\bin;D:\\phpstudy\\php55;C:\\ProgramData\\ComposerSetup\\bin;D:\\宸ュ叿\\SVN\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '90'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/phpstudy/WWW'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpstudy/WWW'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'D:/phpstudy/WWW/ytwo_git/ytwo/web/index-test.php'
+    'REMOTE_PORT' => '52016'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/ytwo_git/ytwo/web/index-test.php/admin/index/login'
+    'SCRIPT_NAME' => '/ytwo_git/ytwo/web/index-test.php'
+    'PATH_INFO' => '/admin/index/login'
+    'PATH_TRANSLATED' => 'D:\\phpstudy\\WWW\\admin\\index\\login'
+    'PHP_SELF' => '/ytwo_git/ytwo/web/index-test.php/admin/index/login'
+    'REQUEST_TIME_FLOAT' => 1529636249.199
+    'REQUEST_TIME' => 1529636249
+]
+2018-06-22 10:58:10 [::1][-][-][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'testlinux'' in D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\db\Connection.php:579
+Stack trace:
+#0 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\db\Connection.php(579): PDO->__construct('mysql:host=loca...', 'root', 'root', NULL)
+#1 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\db\Connection.php(529): yii\db\Connection->createPdoInstance()
+#2 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\db\Connection.php(836): yii\db\Connection->open()
+#3 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\db\Connection.php(823): yii\db\Connection->getMasterPdo()
+#4 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\db\Schema.php(382): yii\db\Connection->getSlavePdo()
+#5 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\db\Connection.php(732): yii\db\Schema->quoteValue('admin')
+#6 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\db\Command.php(164): yii\db\Connection->quoteValue('admin')
+#7 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\db\Command.php(791): yii\db\Command->getRawSql()
+#8 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\db\Command.php(364): yii\db\Command->queryInternal('fetch', NULL)
+#9 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\db\Query.php(243): yii\db\Command->queryOne()
+#10 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\db\ActiveQuery.php(285): yii\db\Query->one(NULL)
+#11 D:\phpstudy\WWW\ytwo_git\ytwo\models\UserForm.php(55): yii\db\ActiveQuery->one()
+#12 D:\phpstudy\WWW\ytwo_git\ytwo\models\UserForm.php(42): app\models\UserForm->getUser()
+#13 [internal function]: app\models\UserForm->validatePassword('pwd', NULL)
+#14 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\validators\InlineValidator.php(67): call_user_func(Array, 'pwd', NULL)
+#15 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\validators\Validator.php(238): yii\validators\InlineValidator->validateAttribute(Object(app\models\UserForm), 'pwd')
+#16 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\base\Model.php(333): yii\validators\Validator->validateAttributes(Object(app\models\UserForm), Array)
+#17 D:\phpstudy\WWW\ytwo_git\ytwo\models\UserForm.php(66): yii\base\Model->validate()
+#18 D:\phpstudy\WWW\ytwo_git\ytwo\modules\controllers\IndexController.php(164): app\models\UserForm->login()
+#19 [internal function]: app\modules\controllers\IndexController->actionLogin()
+#20 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#21 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#22 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\base\Module.php(456): yii\base\Controller->runAction('login', Array)
+#23 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('admin/index/log...', Array)
+#24 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#25 D:\phpstudy\WWW\ytwo_git\ytwo\web\index-test.php(16): yii\base\Application->run()
+#26 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[HY000] [1049] Unknown database 'testlinux'' in D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\db\Connection.php:534
+Stack trace:
+#0 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\db\Connection.php(836): yii\db\Connection->open()
+#1 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\db\Connection.php(823): yii\db\Connection->getMasterPdo()
+#2 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\db\Schema.php(382): yii\db\Connection->getSlavePdo()
+#3 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\db\Connection.php(732): yii\db\Schema->quoteValue('admin')
+#4 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\db\Command.php(164): yii\db\Connection->quoteValue('admin')
+#5 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\db\Command.php(791): yii\db\Command->getRawSql()
+#6 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\db\Command.php(364): yii\db\Command->queryInternal('fetch', NULL)
+#7 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\db\Query.php(243): yii\db\Command->queryOne()
+#8 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\db\ActiveQuery.php(285): yii\db\Query->one(NULL)
+#9 D:\phpstudy\WWW\ytwo_git\ytwo\models\UserForm.php(55): yii\db\ActiveQuery->one()
+#10 D:\phpstudy\WWW\ytwo_git\ytwo\models\UserForm.php(42): app\models\UserForm->getUser()
+#11 [internal function]: app\models\UserForm->validatePassword('pwd', NULL)
+#12 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\validators\InlineValidator.php(67): call_user_func(Array, 'pwd', NULL)
+#13 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\validators\Validator.php(238): yii\validators\InlineValidator->validateAttribute(Object(app\models\UserForm), 'pwd')
+#14 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\base\Model.php(333): yii\validators\Validator->validateAttributes(Object(app\models\UserForm), Array)
+#15 D:\phpstudy\WWW\ytwo_git\ytwo\models\UserForm.php(66): yii\base\Model->validate()
+#16 D:\phpstudy\WWW\ytwo_git\ytwo\modules\controllers\IndexController.php(164): app\models\UserForm->login()
+#17 [internal function]: app\modules\controllers\IndexController->actionLogin()
+#18 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#19 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#20 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\base\Module.php(456): yii\base\Controller->runAction('login', Array)
+#21 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('admin/index/log...', Array)
+#22 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#23 D:\phpstudy\WWW\ytwo_git\ytwo\web\index-test.php(16): yii\base\Application->run()
+#24 {main}
+Additional Information:
+
+2018-06-22 10:58:09 [::1][-][-][info][application] $_POST = [
+    '_csrf' => 'SndueHVhODcnWiUoOyldUywzKTE6LAxSFTNWD0cNDG15PwVIPBhhaA=='
+    'UserForm' => [
+        'user' => 'admin'
+        'pwd' => 'admin'
+    ]
+    'submit-button' => ''
+]
+
+$_COOKIE = [
+    '_csrf' => '2c54b8cb97d8fbd45b955c1ad600004d9e1f2b81d0d70680ddf97a75d06bf259s:32:\"m-KPNHedfDGIOM4e_D8w2l4Z3Hk0IyY_\";'
+    'PHPSESSID' => 'b8o5uc814sj79div7avdc6unh0'
+]
+
+$_SESSION = [
+    '__returnUrl' => '/ytwo/web/index-test.php'
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost:90'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '503'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.29 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ORIGIN' => 'http://localhost:90'
+    'CONTENT_TYPE' => 'multipart/form-data; boundary=----WebKitFormBoundary9rsR3kF32m1gCjA7'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost:90/ytwo_git/ytwo/web/index-test.php/admin/index/login'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_COOKIE' => '_csrf=2c54b8cb97d8fbd45b955c1ad600004d9e1f2b81d0d70680ddf97a75d06bf259s%3A32%3A%22m-KPNHedfDGIOM4e_D8w2l4Z3Hk0IyY_%22%3B; PHPSESSID=b8o5uc814sj79div7avdc6unh0'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\git\\Git\\cmd;D:\\JDK-1.7\\jdk1.8.0_77\\bin;D:\\JDK-1.7\\jdk1.8.0_77\\jre\\bin;C:\\Program Files\\Apache Software Foundation\\Tomcat 7.0\\bin;D:\\phpstudy\\php55;C:\\ProgramData\\ComposerSetup\\bin;D:\\宸ュ叿\\SVN\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '90'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/phpstudy/WWW'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpstudy/WWW'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'D:/phpstudy/WWW/ytwo_git/ytwo/web/index-test.php'
+    'REMOTE_PORT' => '52041'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/ytwo_git/ytwo/web/index-test.php/admin/index/login'
+    'SCRIPT_NAME' => '/ytwo_git/ytwo/web/index-test.php'
+    'PATH_INFO' => '/admin/index/login'
+    'PATH_TRANSLATED' => 'D:\\phpstudy\\WWW\\admin\\index\\login'
+    'PHP_SELF' => '/ytwo_git/ytwo/web/index-test.php/admin/index/login'
+    'REQUEST_TIME_FLOAT' => 1529636289.674
+    'REQUEST_TIME' => 1529636289
+]
+2018-06-22 11:01:06 [::1][-][-][error][yii\db\Exception] exception 'yii\base\ErrorException' with message 'PDO::__construct(): ' in D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\db\Connection.php:579
+Stack trace:
+#0 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\db\Connection.php(529): yii\db\Connection->createPdoInstance()
+#1 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\db\Connection.php(836): yii\db\Connection->open()
+#2 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\db\Connection.php(823): yii\db\Connection->getMasterPdo()
+#3 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\db\Schema.php(382): yii\db\Connection->getSlavePdo()
+#4 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\db\Connection.php(732): yii\db\Schema->quoteValue()
+#5 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\db\Command.php(164): yii\db\Connection->quoteValue()
+#6 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\db\Command.php(791): yii\db\Command->getRawSql()
+#7 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\db\Command.php(364): yii\db\Command->queryInternal()
+#8 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\db\Query.php(243): yii\db\Command->queryOne()
+#9 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\db\ActiveQuery.php(285): yii\db\Query->one()
+#10 D:\phpstudy\WWW\ytwo_git\ytwo\models\UserForm.php(55): yii\db\ActiveQuery->one()
+#11 D:\phpstudy\WWW\ytwo_git\ytwo\models\UserForm.php(42): app\models\UserForm->getUser()
+#12 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\validators\InlineValidator.php(67): app\models\UserForm->validatePassword()
+#13 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\validators\InlineValidator.php(67): ::call_user_func:{D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\validators\InlineValidator.php:67}()
+#14 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\validators\Validator.php(238): yii\validators\InlineValidator->validateAttribute()
+#15 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\base\Model.php(333): yii\validators\Validator->validateAttributes()
+#16 D:\phpstudy\WWW\ytwo_git\ytwo\models\UserForm.php(66): yii\base\Model->validate()
+#17 D:\phpstudy\WWW\ytwo_git\ytwo\modules\controllers\IndexController.php(164): app\models\UserForm->login()
+#18 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\base\InlineAction.php(55): app\modules\controllers\IndexController->actionLogin()
+#19 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\base\InlineAction.php(55): ::call_user_func_array:{D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\base\InlineAction.php:55}()
+#20 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams()
+#21 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\base\Module.php(456): yii\base\Controller->runAction()
+#22 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction()
+#23 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest()
+#24 D:\phpstudy\WWW\ytwo_git\ytwo\web\index-test.php(16): yii\base\Application->run()
+#25 {main}
+
+Next exception 'PDOException' with message 'SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: 不知道这样的主机。 ' in D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\db\Connection.php:579
+Stack trace:
+#0 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\db\Connection.php(0): PDO->__construct()
+#1 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\db\Connection.php(529): yii\db\Connection->createPdoInstance()
+#2 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\db\Connection.php(836): yii\db\Connection->open()
+#3 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\db\Connection.php(823): yii\db\Connection->getMasterPdo()
+#4 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\db\Schema.php(382): yii\db\Connection->getSlavePdo()
+#5 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\db\Connection.php(732): yii\db\Schema->quoteValue('admin')
+#6 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\db\Command.php(164): yii\db\Connection->quoteValue('admin')
+#7 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\db\Command.php(791): yii\db\Command->getRawSql()
+#8 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\db\Command.php(364): yii\db\Command->queryInternal('fetch', NULL)
+#9 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\db\Query.php(243): yii\db\Command->queryOne()
+#10 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\db\ActiveQuery.php(285): yii\db\Query->one(NULL)
+#11 D:\phpstudy\WWW\ytwo_git\ytwo\models\UserForm.php(55): yii\db\ActiveQuery->one()
+#12 D:\phpstudy\WWW\ytwo_git\ytwo\models\UserForm.php(42): app\models\UserForm->getUser()
+#13 [internal function]: app\models\UserForm->validatePassword('pwd', NULL)
+#14 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\validators\InlineValidator.php(67): call_user_func(Array, 'pwd', NULL)
+#15 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\validators\Validator.php(238): yii\validators\InlineValidator->validateAttribute(Object(app\models\UserForm), 'pwd')
+#16 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\base\Model.php(333): yii\validators\Validator->validateAttributes(Object(app\models\UserForm), Array)
+#17 D:\phpstudy\WWW\ytwo_git\ytwo\models\UserForm.php(66): yii\base\Model->validate()
+#18 D:\phpstudy\WWW\ytwo_git\ytwo\modules\controllers\IndexController.php(164): app\models\UserForm->login()
+#19 [internal function]: app\modules\controllers\IndexController->actionLogin()
+#20 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#21 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#22 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\base\Module.php(456): yii\base\Controller->runAction('login', Array)
+#23 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('admin/index/log...', Array)
+#24 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#25 D:\phpstudy\WWW\ytwo_git\ytwo\web\index-test.php(16): yii\base\Application->run()
+#26 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: 不知道这样的主机。 ' in D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\db\Connection.php:534
+Stack trace:
+#0 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\db\Connection.php(836): yii\db\Connection->open()
+#1 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\db\Connection.php(823): yii\db\Connection->getMasterPdo()
+#2 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\db\Schema.php(382): yii\db\Connection->getSlavePdo()
+#3 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\db\Connection.php(732): yii\db\Schema->quoteValue('admin')
+#4 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\db\Command.php(164): yii\db\Connection->quoteValue('admin')
+#5 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\db\Command.php(791): yii\db\Command->getRawSql()
+#6 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\db\Command.php(364): yii\db\Command->queryInternal('fetch', NULL)
+#7 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\db\Query.php(243): yii\db\Command->queryOne()
+#8 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\db\ActiveQuery.php(285): yii\db\Query->one(NULL)
+#9 D:\phpstudy\WWW\ytwo_git\ytwo\models\UserForm.php(55): yii\db\ActiveQuery->one()
+#10 D:\phpstudy\WWW\ytwo_git\ytwo\models\UserForm.php(42): app\models\UserForm->getUser()
+#11 [internal function]: app\models\UserForm->validatePassword('pwd', NULL)
+#12 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\validators\InlineValidator.php(67): call_user_func(Array, 'pwd', NULL)
+#13 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\validators\Validator.php(238): yii\validators\InlineValidator->validateAttribute(Object(app\models\UserForm), 'pwd')
+#14 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\base\Model.php(333): yii\validators\Validator->validateAttributes(Object(app\models\UserForm), Array)
+#15 D:\phpstudy\WWW\ytwo_git\ytwo\models\UserForm.php(66): yii\base\Model->validate()
+#16 D:\phpstudy\WWW\ytwo_git\ytwo\modules\controllers\IndexController.php(164): app\models\UserForm->login()
+#17 [internal function]: app\modules\controllers\IndexController->actionLogin()
+#18 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#19 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#20 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\base\Module.php(456): yii\base\Controller->runAction('login', Array)
+#21 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('admin/index/log...', Array)
+#22 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#23 D:\phpstudy\WWW\ytwo_git\ytwo\web\index-test.php(16): yii\base\Application->run()
+#24 {main}
+Additional Information:
+
+2018-06-22 11:01:03 [::1][-][-][info][application] $_POST = [
+    '_csrf' => 'SndueHVhODcnWiUoOyldUywzKTE6LAxSFTNWD0cNDG15PwVIPBhhaA=='
+    'UserForm' => [
+        'user' => 'admin'
+        'pwd' => 'admin'
+    ]
+    'submit-button' => ''
+]
+
+$_COOKIE = [
+    '_csrf' => '2c54b8cb97d8fbd45b955c1ad600004d9e1f2b81d0d70680ddf97a75d06bf259s:32:\"m-KPNHedfDGIOM4e_D8w2l4Z3Hk0IyY_\";'
+    'PHPSESSID' => 'b8o5uc814sj79div7avdc6unh0'
+]
+
+$_SESSION = [
+    '__returnUrl' => '/ytwo/web/index-test.php'
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost:90'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '503'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.29 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ORIGIN' => 'http://localhost:90'
+    'CONTENT_TYPE' => 'multipart/form-data; boundary=----WebKitFormBoundary9rsR3kF32m1gCjA7'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost:90/ytwo_git/ytwo/web/index-test.php/admin/index/login'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_COOKIE' => '_csrf=2c54b8cb97d8fbd45b955c1ad600004d9e1f2b81d0d70680ddf97a75d06bf259s%3A32%3A%22m-KPNHedfDGIOM4e_D8w2l4Z3Hk0IyY_%22%3B; PHPSESSID=b8o5uc814sj79div7avdc6unh0'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\git\\Git\\cmd;D:\\JDK-1.7\\jdk1.8.0_77\\bin;D:\\JDK-1.7\\jdk1.8.0_77\\jre\\bin;C:\\Program Files\\Apache Software Foundation\\Tomcat 7.0\\bin;D:\\phpstudy\\php55;C:\\ProgramData\\ComposerSetup\\bin;D:\\宸ュ叿\\SVN\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '90'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/phpstudy/WWW'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpstudy/WWW'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'D:/phpstudy/WWW/ytwo_git/ytwo/web/index-test.php'
+    'REMOTE_PORT' => '52099'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/ytwo_git/ytwo/web/index-test.php/admin/index/login'
+    'SCRIPT_NAME' => '/ytwo_git/ytwo/web/index-test.php'
+    'PATH_INFO' => '/admin/index/login'
+    'PATH_TRANSLATED' => 'D:\\phpstudy\\WWW\\admin\\index\\login'
+    'PHP_SELF' => '/ytwo_git/ytwo/web/index-test.php/admin/index/login'
+    'REQUEST_TIME_FLOAT' => 1529636463.825
+    'REQUEST_TIME' => 1529636463
+]
+2018-06-22 11:01:27 [::1][-][-][error][yii\db\Exception] exception 'yii\base\ErrorException' with message 'PDO::__construct(): ' in D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\db\Connection.php:579
+Stack trace:
+#0 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\db\Connection.php(529): yii\db\Connection->createPdoInstance()
+#1 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\db\Connection.php(836): yii\db\Connection->open()
+#2 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\db\Connection.php(823): yii\db\Connection->getMasterPdo()
+#3 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\db\Schema.php(382): yii\db\Connection->getSlavePdo()
+#4 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\db\Connection.php(732): yii\db\Schema->quoteValue()
+#5 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\db\Command.php(164): yii\db\Connection->quoteValue()
+#6 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\db\Command.php(791): yii\db\Command->getRawSql()
+#7 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\db\Command.php(364): yii\db\Command->queryInternal()
+#8 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\db\Query.php(243): yii\db\Command->queryOne()
+#9 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\db\ActiveQuery.php(285): yii\db\Query->one()
+#10 D:\phpstudy\WWW\ytwo_git\ytwo\models\UserForm.php(55): yii\db\ActiveQuery->one()
+#11 D:\phpstudy\WWW\ytwo_git\ytwo\models\UserForm.php(42): app\models\UserForm->getUser()
+#12 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\validators\InlineValidator.php(67): app\models\UserForm->validatePassword()
+#13 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\validators\InlineValidator.php(67): ::call_user_func:{D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\validators\InlineValidator.php:67}()
+#14 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\validators\Validator.php(238): yii\validators\InlineValidator->validateAttribute()
+#15 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\base\Model.php(333): yii\validators\Validator->validateAttributes()
+#16 D:\phpstudy\WWW\ytwo_git\ytwo\models\UserForm.php(66): yii\base\Model->validate()
+#17 D:\phpstudy\WWW\ytwo_git\ytwo\modules\controllers\IndexController.php(164): app\models\UserForm->login()
+#18 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\base\InlineAction.php(55): app\modules\controllers\IndexController->actionLogin()
+#19 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\base\InlineAction.php(55): ::call_user_func_array:{D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\base\InlineAction.php:55}()
+#20 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams()
+#21 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\base\Module.php(456): yii\base\Controller->runAction()
+#22 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction()
+#23 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest()
+#24 D:\phpstudy\WWW\ytwo_git\ytwo\web\index-test.php(16): yii\base\Application->run()
+#25 {main}
+
+Next exception 'PDOException' with message 'SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: 不知道这样的主机。 ' in D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\db\Connection.php:579
+Stack trace:
+#0 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\db\Connection.php(0): PDO->__construct()
+#1 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\db\Connection.php(529): yii\db\Connection->createPdoInstance()
+#2 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\db\Connection.php(836): yii\db\Connection->open()
+#3 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\db\Connection.php(823): yii\db\Connection->getMasterPdo()
+#4 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\db\Schema.php(382): yii\db\Connection->getSlavePdo()
+#5 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\db\Connection.php(732): yii\db\Schema->quoteValue('admin')
+#6 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\db\Command.php(164): yii\db\Connection->quoteValue('admin')
+#7 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\db\Command.php(791): yii\db\Command->getRawSql()
+#8 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\db\Command.php(364): yii\db\Command->queryInternal('fetch', NULL)
+#9 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\db\Query.php(243): yii\db\Command->queryOne()
+#10 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\db\ActiveQuery.php(285): yii\db\Query->one(NULL)
+#11 D:\phpstudy\WWW\ytwo_git\ytwo\models\UserForm.php(55): yii\db\ActiveQuery->one()
+#12 D:\phpstudy\WWW\ytwo_git\ytwo\models\UserForm.php(42): app\models\UserForm->getUser()
+#13 [internal function]: app\models\UserForm->validatePassword('pwd', NULL)
+#14 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\validators\InlineValidator.php(67): call_user_func(Array, 'pwd', NULL)
+#15 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\validators\Validator.php(238): yii\validators\InlineValidator->validateAttribute(Object(app\models\UserForm), 'pwd')
+#16 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\base\Model.php(333): yii\validators\Validator->validateAttributes(Object(app\models\UserForm), Array)
+#17 D:\phpstudy\WWW\ytwo_git\ytwo\models\UserForm.php(66): yii\base\Model->validate()
+#18 D:\phpstudy\WWW\ytwo_git\ytwo\modules\controllers\IndexController.php(164): app\models\UserForm->login()
+#19 [internal function]: app\modules\controllers\IndexController->actionLogin()
+#20 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#21 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#22 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\base\Module.php(456): yii\base\Controller->runAction('login', Array)
+#23 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('admin/index/log...', Array)
+#24 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#25 D:\phpstudy\WWW\ytwo_git\ytwo\web\index-test.php(16): yii\base\Application->run()
+#26 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: 不知道这样的主机。 ' in D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\db\Connection.php:534
+Stack trace:
+#0 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\db\Connection.php(836): yii\db\Connection->open()
+#1 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\db\Connection.php(823): yii\db\Connection->getMasterPdo()
+#2 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\db\Schema.php(382): yii\db\Connection->getSlavePdo()
+#3 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\db\Connection.php(732): yii\db\Schema->quoteValue('admin')
+#4 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\db\Command.php(164): yii\db\Connection->quoteValue('admin')
+#5 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\db\Command.php(791): yii\db\Command->getRawSql()
+#6 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\db\Command.php(364): yii\db\Command->queryInternal('fetch', NULL)
+#7 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\db\Query.php(243): yii\db\Command->queryOne()
+#8 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\db\ActiveQuery.php(285): yii\db\Query->one(NULL)
+#9 D:\phpstudy\WWW\ytwo_git\ytwo\models\UserForm.php(55): yii\db\ActiveQuery->one()
+#10 D:\phpstudy\WWW\ytwo_git\ytwo\models\UserForm.php(42): app\models\UserForm->getUser()
+#11 [internal function]: app\models\UserForm->validatePassword('pwd', NULL)
+#12 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\validators\InlineValidator.php(67): call_user_func(Array, 'pwd', NULL)
+#13 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\validators\Validator.php(238): yii\validators\InlineValidator->validateAttribute(Object(app\models\UserForm), 'pwd')
+#14 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\base\Model.php(333): yii\validators\Validator->validateAttributes(Object(app\models\UserForm), Array)
+#15 D:\phpstudy\WWW\ytwo_git\ytwo\models\UserForm.php(66): yii\base\Model->validate()
+#16 D:\phpstudy\WWW\ytwo_git\ytwo\modules\controllers\IndexController.php(164): app\models\UserForm->login()
+#17 [internal function]: app\modules\controllers\IndexController->actionLogin()
+#18 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#19 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#20 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\base\Module.php(456): yii\base\Controller->runAction('login', Array)
+#21 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('admin/index/log...', Array)
+#22 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#23 D:\phpstudy\WWW\ytwo_git\ytwo\web\index-test.php(16): yii\base\Application->run()
+#24 {main}
+Additional Information:
+
+2018-06-22 11:01:24 [::1][-][-][info][application] $_POST = [
+    '_csrf' => 'SndueHVhODcnWiUoOyldUywzKTE6LAxSFTNWD0cNDG15PwVIPBhhaA=='
+    'UserForm' => [
+        'user' => 'admin'
+        'pwd' => 'admin'
+    ]
+    'submit-button' => ''
+]
+
+$_COOKIE = [
+    '_csrf' => '2c54b8cb97d8fbd45b955c1ad600004d9e1f2b81d0d70680ddf97a75d06bf259s:32:\"m-KPNHedfDGIOM4e_D8w2l4Z3Hk0IyY_\";'
+    'PHPSESSID' => 'b8o5uc814sj79div7avdc6unh0'
+]
+
+$_SESSION = [
+    '__returnUrl' => '/ytwo/web/index-test.php'
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost:90'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '503'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.29 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ORIGIN' => 'http://localhost:90'
+    'CONTENT_TYPE' => 'multipart/form-data; boundary=----WebKitFormBoundary9rsR3kF32m1gCjA7'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost:90/ytwo_git/ytwo/web/index-test.php/admin/index/login'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_COOKIE' => '_csrf=2c54b8cb97d8fbd45b955c1ad600004d9e1f2b81d0d70680ddf97a75d06bf259s%3A32%3A%22m-KPNHedfDGIOM4e_D8w2l4Z3Hk0IyY_%22%3B; PHPSESSID=b8o5uc814sj79div7avdc6unh0'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\git\\Git\\cmd;D:\\JDK-1.7\\jdk1.8.0_77\\bin;D:\\JDK-1.7\\jdk1.8.0_77\\jre\\bin;C:\\Program Files\\Apache Software Foundation\\Tomcat 7.0\\bin;D:\\phpstudy\\php55;C:\\ProgramData\\ComposerSetup\\bin;D:\\宸ュ叿\\SVN\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '90'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/phpstudy/WWW'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpstudy/WWW'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'D:/phpstudy/WWW/ytwo_git/ytwo/web/index-test.php'
+    'REMOTE_PORT' => '52108'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/ytwo_git/ytwo/web/index-test.php/admin/index/login'
+    'SCRIPT_NAME' => '/ytwo_git/ytwo/web/index-test.php'
+    'PATH_INFO' => '/admin/index/login'
+    'PATH_TRANSLATED' => 'D:\\phpstudy\\WWW\\admin\\index\\login'
+    'PHP_SELF' => '/ytwo_git/ytwo/web/index-test.php/admin/index/login'
+    'REQUEST_TIME_FLOAT' => 1529636484.84
+    'REQUEST_TIME' => 1529636484
+]
+2018-06-22 11:03:33 [::1][-][-][error][yii\db\Exception] exception 'yii\base\ErrorException' with message 'PDO::__construct(): ' in D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\db\Connection.php:579
+Stack trace:
+#0 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\db\Connection.php(529): yii\db\Connection->createPdoInstance()
+#1 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\db\Connection.php(836): yii\db\Connection->open()
+#2 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\db\Connection.php(823): yii\db\Connection->getMasterPdo()
+#3 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\db\Schema.php(382): yii\db\Connection->getSlavePdo()
+#4 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\db\Connection.php(732): yii\db\Schema->quoteValue()
+#5 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\db\Command.php(164): yii\db\Connection->quoteValue()
+#6 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\db\Command.php(791): yii\db\Command->getRawSql()
+#7 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\db\Command.php(364): yii\db\Command->queryInternal()
+#8 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\db\Query.php(243): yii\db\Command->queryOne()
+#9 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\db\ActiveQuery.php(285): yii\db\Query->one()
+#10 D:\phpstudy\WWW\ytwo_git\ytwo\models\UserForm.php(55): yii\db\ActiveQuery->one()
+#11 D:\phpstudy\WWW\ytwo_git\ytwo\models\UserForm.php(42): app\models\UserForm->getUser()
+#12 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\validators\InlineValidator.php(67): app\models\UserForm->validatePassword()
+#13 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\validators\InlineValidator.php(67): ::call_user_func:{D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\validators\InlineValidator.php:67}()
+#14 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\validators\Validator.php(238): yii\validators\InlineValidator->validateAttribute()
+#15 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\base\Model.php(333): yii\validators\Validator->validateAttributes()
+#16 D:\phpstudy\WWW\ytwo_git\ytwo\models\UserForm.php(66): yii\base\Model->validate()
+#17 D:\phpstudy\WWW\ytwo_git\ytwo\modules\controllers\IndexController.php(164): app\models\UserForm->login()
+#18 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\base\InlineAction.php(55): app\modules\controllers\IndexController->actionLogin()
+#19 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\base\InlineAction.php(55): ::call_user_func_array:{D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\base\InlineAction.php:55}()
+#20 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams()
+#21 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\base\Module.php(456): yii\base\Controller->runAction()
+#22 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction()
+#23 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest()
+#24 D:\phpstudy\WWW\ytwo_git\ytwo\web\index-test.php(16): yii\base\Application->run()
+#25 {main}
+
+Next exception 'PDOException' with message 'SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: 不知道这样的主机。 ' in D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\db\Connection.php:579
+Stack trace:
+#0 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\db\Connection.php(0): PDO->__construct()
+#1 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\db\Connection.php(529): yii\db\Connection->createPdoInstance()
+#2 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\db\Connection.php(836): yii\db\Connection->open()
+#3 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\db\Connection.php(823): yii\db\Connection->getMasterPdo()
+#4 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\db\Schema.php(382): yii\db\Connection->getSlavePdo()
+#5 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\db\Connection.php(732): yii\db\Schema->quoteValue('admin')
+#6 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\db\Command.php(164): yii\db\Connection->quoteValue('admin')
+#7 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\db\Command.php(791): yii\db\Command->getRawSql()
+#8 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\db\Command.php(364): yii\db\Command->queryInternal('fetch', NULL)
+#9 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\db\Query.php(243): yii\db\Command->queryOne()
+#10 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\db\ActiveQuery.php(285): yii\db\Query->one(NULL)
+#11 D:\phpstudy\WWW\ytwo_git\ytwo\models\UserForm.php(55): yii\db\ActiveQuery->one()
+#12 D:\phpstudy\WWW\ytwo_git\ytwo\models\UserForm.php(42): app\models\UserForm->getUser()
+#13 [internal function]: app\models\UserForm->validatePassword('pwd', NULL)
+#14 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\validators\InlineValidator.php(67): call_user_func(Array, 'pwd', NULL)
+#15 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\validators\Validator.php(238): yii\validators\InlineValidator->validateAttribute(Object(app\models\UserForm), 'pwd')
+#16 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\base\Model.php(333): yii\validators\Validator->validateAttributes(Object(app\models\UserForm), Array)
+#17 D:\phpstudy\WWW\ytwo_git\ytwo\models\UserForm.php(66): yii\base\Model->validate()
+#18 D:\phpstudy\WWW\ytwo_git\ytwo\modules\controllers\IndexController.php(164): app\models\UserForm->login()
+#19 [internal function]: app\modules\controllers\IndexController->actionLogin()
+#20 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#21 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#22 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\base\Module.php(456): yii\base\Controller->runAction('login', Array)
+#23 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('admin/index/log...', Array)
+#24 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#25 D:\phpstudy\WWW\ytwo_git\ytwo\web\index-test.php(16): yii\base\Application->run()
+#26 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: 不知道这样的主机。 ' in D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\db\Connection.php:534
+Stack trace:
+#0 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\db\Connection.php(836): yii\db\Connection->open()
+#1 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\db\Connection.php(823): yii\db\Connection->getMasterPdo()
+#2 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\db\Schema.php(382): yii\db\Connection->getSlavePdo()
+#3 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\db\Connection.php(732): yii\db\Schema->quoteValue('admin')
+#4 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\db\Command.php(164): yii\db\Connection->quoteValue('admin')
+#5 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\db\Command.php(791): yii\db\Command->getRawSql()
+#6 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\db\Command.php(364): yii\db\Command->queryInternal('fetch', NULL)
+#7 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\db\Query.php(243): yii\db\Command->queryOne()
+#8 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\db\ActiveQuery.php(285): yii\db\Query->one(NULL)
+#9 D:\phpstudy\WWW\ytwo_git\ytwo\models\UserForm.php(55): yii\db\ActiveQuery->one()
+#10 D:\phpstudy\WWW\ytwo_git\ytwo\models\UserForm.php(42): app\models\UserForm->getUser()
+#11 [internal function]: app\models\UserForm->validatePassword('pwd', NULL)
+#12 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\validators\InlineValidator.php(67): call_user_func(Array, 'pwd', NULL)
+#13 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\validators\Validator.php(238): yii\validators\InlineValidator->validateAttribute(Object(app\models\UserForm), 'pwd')
+#14 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\base\Model.php(333): yii\validators\Validator->validateAttributes(Object(app\models\UserForm), Array)
+#15 D:\phpstudy\WWW\ytwo_git\ytwo\models\UserForm.php(66): yii\base\Model->validate()
+#16 D:\phpstudy\WWW\ytwo_git\ytwo\modules\controllers\IndexController.php(164): app\models\UserForm->login()
+#17 [internal function]: app\modules\controllers\IndexController->actionLogin()
+#18 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#19 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#20 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\base\Module.php(456): yii\base\Controller->runAction('login', Array)
+#21 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('admin/index/log...', Array)
+#22 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#23 D:\phpstudy\WWW\ytwo_git\ytwo\web\index-test.php(16): yii\base\Application->run()
+#24 {main}
+Additional Information:
+
+2018-06-22 11:03:30 [::1][-][-][info][application] $_POST = [
+    '_csrf' => 'SndueHVhODcnWiUoOyldUywzKTE6LAxSFTNWD0cNDG15PwVIPBhhaA=='
+    'UserForm' => [
+        'user' => 'admin'
+        'pwd' => 'admin'
+    ]
+    'submit-button' => ''
+]
+
+$_COOKIE = [
+    '_csrf' => '2c54b8cb97d8fbd45b955c1ad600004d9e1f2b81d0d70680ddf97a75d06bf259s:32:\"m-KPNHedfDGIOM4e_D8w2l4Z3Hk0IyY_\";'
+    'PHPSESSID' => 'b8o5uc814sj79div7avdc6unh0'
+]
+
+$_SESSION = [
+    '__returnUrl' => '/ytwo/web/index-test.php'
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost:90'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '503'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.29 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ORIGIN' => 'http://localhost:90'
+    'CONTENT_TYPE' => 'multipart/form-data; boundary=----WebKitFormBoundary9rsR3kF32m1gCjA7'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost:90/ytwo_git/ytwo/web/index-test.php/admin/index/login'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_COOKIE' => '_csrf=2c54b8cb97d8fbd45b955c1ad600004d9e1f2b81d0d70680ddf97a75d06bf259s%3A32%3A%22m-KPNHedfDGIOM4e_D8w2l4Z3Hk0IyY_%22%3B; PHPSESSID=b8o5uc814sj79div7avdc6unh0'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\git\\Git\\cmd;D:\\JDK-1.7\\jdk1.8.0_77\\bin;D:\\JDK-1.7\\jdk1.8.0_77\\jre\\bin;C:\\Program Files\\Apache Software Foundation\\Tomcat 7.0\\bin;D:\\phpstudy\\php55;C:\\ProgramData\\ComposerSetup\\bin;D:\\宸ュ叿\\SVN\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '90'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/phpstudy/WWW'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpstudy/WWW'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'D:/phpstudy/WWW/ytwo_git/ytwo/web/index-test.php'
+    'REMOTE_PORT' => '52201'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/ytwo_git/ytwo/web/index-test.php/admin/index/login'
+    'SCRIPT_NAME' => '/ytwo_git/ytwo/web/index-test.php'
+    'PATH_INFO' => '/admin/index/login'
+    'PATH_TRANSLATED' => 'D:\\phpstudy\\WWW\\admin\\index\\login'
+    'PHP_SELF' => '/ytwo_git/ytwo/web/index-test.php/admin/index/login'
+    'REQUEST_TIME_FLOAT' => 1529636610.661
+    'REQUEST_TIME' => 1529636610
+]
+2018-06-22 11:04:20 [::1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: admin/index/favicon.ico' in D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\base\Controller.php:122
+Stack trace:
+#0 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\base\Module.php(456): yii\base\Controller->runAction('favicon.ico', Array)
+#1 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('admin/index/fav...', Array)
+#2 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 D:\phpstudy\WWW\ytwo_git\ytwo\web\index-test.php(16): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Unable to resolve the request: admin/index/favicon.ico' in D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\web\Application.php:95
+Stack trace:
+#0 D:\phpstudy\WWW\ytwo_git\ytwo\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\phpstudy\WWW\ytwo_git\ytwo\web\index-test.php(16): yii\base\Application->run()
+#2 {main}
+2018-06-22 11:04:20 [::1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '2c54b8cb97d8fbd45b955c1ad600004d9e1f2b81d0d70680ddf97a75d06bf259s:32:\"m-KPNHedfDGIOM4e_D8w2l4Z3Hk0IyY_\";'
+    'PHPSESSID' => 'b8o5uc814sj79div7avdc6unh0'
+    '_identity' => '8d77ce6ba64d0a2fbb0efb0d230add73fcca7013f98fec5cd24af71115652960s:22:\"[1,\"test100key\",86400]\";'
+]
+
+$_SESSION = [
+    '__returnUrl' => '/ytwo/web/index-test.php'
+    '__flash' => []
+    '__id' => 1
+    'msg' => '0'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost:90'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.29 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost:90/ytwo_git/ytwo/web/index-test.php/admin/index/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_COOKIE' => '_csrf=2c54b8cb97d8fbd45b955c1ad600004d9e1f2b81d0d70680ddf97a75d06bf259s%3A32%3A%22m-KPNHedfDGIOM4e_D8w2l4Z3Hk0IyY_%22%3B; PHPSESSID=b8o5uc814sj79div7avdc6unh0; _identity=8d77ce6ba64d0a2fbb0efb0d230add73fcca7013f98fec5cd24af71115652960s%3A22%3A%22%5B1%2C%22test100key%22%2C86400%5D%22%3B'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\git\\Git\\cmd;D:\\JDK-1.7\\jdk1.8.0_77\\bin;D:\\JDK-1.7\\jdk1.8.0_77\\jre\\bin;C:\\Program Files\\Apache Software Foundation\\Tomcat 7.0\\bin;D:\\phpstudy\\php55;C:\\ProgramData\\ComposerSetup\\bin;D:\\宸ュ叿\\SVN\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '90'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/phpstudy/WWW'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpstudy/WWW'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'D:/phpstudy/WWW/ytwo_git/ytwo/web/index-test.php'
+    'REMOTE_PORT' => '52222'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/ytwo_git/ytwo/web/index-test.php/admin/index/favicon.ico'
+    'SCRIPT_NAME' => '/ytwo_git/ytwo/web/index-test.php'
+    'PATH_INFO' => '/admin/index/favicon.ico'
+    'PATH_TRANSLATED' => 'D:\\phpstudy\\WWW\\admin\\index\\favicon.ico'
+    'PHP_SELF' => '/ytwo_git/ytwo/web/index-test.php/admin/index/favicon.ico'
+    'REQUEST_TIME_FLOAT' => 1529636660.689
+    'REQUEST_TIME' => 1529636660
+]

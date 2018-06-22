@@ -1,5 +1,4 @@
 <?php
-
 /**
  * Application configuration shared by all test types
  */
@@ -7,7 +6,7 @@ if (!in_array(@$_SERVER['REMOTE_ADDR'], ['127.0.0.1', '::1'])) {
     return [
         'components' => [
             'db' => [
-                'dsn' => 'mysql:host=localhost;dbname=testlinux',
+                'dsn' => 'mysql:host=39.104.107.244;dbname=testlinux',
             ],
             'mailer' => [
                 'useFileTransport' => true,
@@ -17,6 +16,7 @@ if (!in_array(@$_SERVER['REMOTE_ADDR'], ['127.0.0.1', '::1'])) {
             ],
         ],
     ];
+    //
 }else{
     return [
         'components' => [
